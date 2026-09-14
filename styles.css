@@ -1755,7 +1755,301 @@ a {
   max-width: 1044px;
 }
 
+/* Rental page */
+.rental-main {
+  padding-bottom: 90px;
+}
+
+.rental-hero {
+  display: grid;
+  grid-template-columns: 1.25fr .75fr;
+  align-items: center;
+  gap: 48px;
+  max-width: 1100px;
+  min-height: 430px;
+  margin: 28px auto 0;
+  padding: 68px;
+  color: var(--white);
+  background:
+    radial-gradient(circle at 82% 12%, rgba(213,170,88,.2), transparent 28%),
+    linear-gradient(135deg, var(--deep-2), #20596c);
+  border-radius: 32px;
+  box-shadow: var(--shadow);
+}
+
+.rental-hero h1 {
+  margin: 0;
+  font-size: clamp(42px, 6vw, 68px);
+  line-height: 1.15;
+  letter-spacing: -.045em;
+}
+
+.rental-lead {
+  margin: 22px 0 0;
+  color: #d7e9ed;
+  font-size: 17px;
+}
+
+.rental-ticket {
+  position: relative;
+  padding: 34px 30px;
+  color: var(--ink);
+  background: var(--paper);
+  border-radius: 18px;
+  box-shadow: 0 22px 50px rgba(0,0,0,.18);
+}
+
+.rental-ticket::before,
+.rental-ticket::after {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background: #1d5264;
+  border-radius: 50%;
+}
+
+.rental-ticket::before { left: -10px; }
+.rental-ticket::after { right: -10px; }
+
+.rental-ticket span {
+  color: var(--coral);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .18em;
+}
+
+.rental-ticket strong {
+  display: block;
+  margin-top: 11px;
+  font-size: 28px;
+  letter-spacing: .08em;
+}
+
+.rental-ticket p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.rental-section {
+  max-width: 1044px;
+  margin: 0 auto;
+  padding: 82px 28px 0;
+}
+
+.rental-section .section-heading h2,
+.store-card h2,
+.checklist-section h2 {
+  margin: 0;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.25;
+  letter-spacing: -.035em;
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.booking-time {
+  padding: 26px;
+  background: var(--white);
+  border-top: 5px solid var(--blue);
+  border-radius: 8px 8px 20px 20px;
+  box-shadow: 0 12px 38px rgba(13,41,53,.06);
+}
+
+.booking-time.return { border-color: var(--coral); }
+
+.booking-time > span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .1em;
+}
+
+.booking-time time {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 16px 0 7px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.booking-time time strong {
+  color: var(--deep);
+  font-size: 30px;
+}
+
+.booking-time small { color: var(--muted); }
+
+.vehicle-facts,
+.store-facts {
+  display: grid;
+  margin: 18px 0 0;
+}
+
+.vehicle-facts {
+  grid-template-columns: repeat(4, 1fr);
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+.vehicle-facts div {
+  padding: 20px;
+  border-right: 1px solid var(--line);
+}
+
+.vehicle-facts div:last-child { border-right: 0; }
+
+.vehicle-facts dt,
+.store-facts dt {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.vehicle-facts dd,
+.store-facts dd {
+  margin: 6px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.store-card {
+  display: grid;
+  grid-template-columns: 1.25fr .75fr;
+  gap: 46px;
+  padding: 42px;
+  background: var(--white);
+  border-radius: 26px;
+  box-shadow: var(--shadow);
+}
+
+.store-card address {
+  margin-top: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.store-facts {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px 28px;
+}
+
+.store-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-top: 26px;
+}
+
+.correction-note {
+  align-self: start;
+  padding: 24px;
+  background: #fff1ed;
+  border: 1px solid #f2d1c8;
+  border-radius: 18px;
+}
+
+.correction-note strong { color: #9b4637; }
+.correction-note p { margin: 8px 0 0; font-size: 14px; }
+
+.flow-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.flow-grid article {
+  min-height: 210px;
+  padding: 27px;
+  background: rgba(255,255,255,.68);
+  border: 1px solid rgba(255,255,255,.9);
+  border-radius: 20px;
+}
+
+.flow-number {
+  color: var(--coral);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.flow-grid h3 { margin: 21px 0 8px; }
+.flow-grid p { margin: 0; color: var(--muted); font-size: 14px; }
+
+.checklist-section {
+  display: grid;
+  grid-template-columns: .75fr 1.25fr;
+  gap: 50px;
+  padding: 42px;
+  color: var(--white);
+  background: var(--deep);
+  border-radius: 26px;
+}
+
+.checklist-section > div > p:last-child { color: #c7dfe5; }
+
+.rental-checklist {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rental-checklist li {
+  position: relative;
+  padding: 13px 16px 13px 43px;
+  color: var(--ink);
+  background: var(--white);
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.rental-checklist li::before {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  color: var(--coral);
+  content: "✓";
+  font-weight: 900;
+}
+
+.privacy-strip {
+  display: flex;
+  gap: 24px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.privacy-strip strong { flex: none; }
+.privacy-strip p { margin: 0; color: var(--muted); font-size: 13px; }
+
 @media (max-width: 900px) {
+  .rental-hero,
+  .store-card,
+  .checklist-section {
+    grid-template-columns: 1fr;
+  }
+
+  .rental-ticket { max-width: 420px; }
+
+  .vehicle-facts { grid-template-columns: repeat(2, 1fr); }
+  .vehicle-facts div:nth-child(2) { border-right: 0; }
+  .vehicle-facts div:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
+
   .weather-hero {
     grid-template-columns: 1fr;
     gap: 34px;
@@ -1784,9 +2078,38 @@ a {
   }
 
   .nav-link {
-    padding-inline: 9px;
-    font-size: 12px;
+    padding-inline: 7px;
+    font-size: 11px;
   }
+
+  .rental-hero {
+    gap: 32px;
+    margin-inline: 18px;
+    padding: 44px 28px;
+    border-radius: 24px;
+  }
+
+  .rental-section { padding: 64px 18px 0; }
+
+  .booking-grid,
+  .flow-grid,
+  .vehicle-facts,
+  .store-facts {
+    grid-template-columns: 1fr;
+  }
+
+  .vehicle-facts div,
+  .vehicle-facts div:nth-child(2) {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .vehicle-facts div:last-child { border-bottom: 0; }
+
+  .booking-time time { align-items: flex-start; flex-direction: column; gap: 2px; }
+  .store-card, .checklist-section { gap: 30px; padding: 28px; }
+  .store-actions, .privacy-strip { align-items: flex-start; flex-direction: column; }
+  .flow-grid article { min-height: 0; }
 
   .weather-hero {
     padding: 46px 28px;
