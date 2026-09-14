@@ -787,12 +787,15 @@ a {
   font-weight: 800;
 }
 
-.stop-hakodate { bottom: 11%; left: 8%; }
-.stop-onuma { bottom: 24%; left: 25%; }
-.stop-toya { top: 43%; left: 43%; }
-.stop-noboribetsu { top: 43%; right: 27%; }
-.stop-otaru { top: 20%; right: 16%; }
-.stop-sapporo { top: 34%; right: 3%; }
+.stop-hakodate { bottom: 8%; left: 7%; }
+.stop-onuma { bottom: 21%; left: 21%; }
+.stop-toya { top: 50%; left: 38%; }
+.stop-noboribetsu { top: 50%; right: 35%; }
+.stop-otaru { top: 26%; right: 29%; }
+.stop-sapporo { top: 35%; right: 18%; }
+.stop-biei { top: 20%; right: 7%; }
+.stop-asahikawa { top: 6%; right: 2%; }
+.stop-chitose { top: 50%; right: 8%; }
 
 .route-summary,
 .daily-section,
@@ -806,7 +809,7 @@ a {
 
 .night-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 12px;
 }
 
@@ -845,6 +848,11 @@ a {
 
 .day-card.long-drive {
   border: 2px solid #d69656;
+}
+
+.day-card.penguin-day {
+  border: 2px solid #69a9bb;
+  box-shadow: 0 16px 44px rgba(25, 92, 111, .13);
 }
 
 .day-header {

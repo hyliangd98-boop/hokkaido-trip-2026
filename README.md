@@ -5,7 +5,7 @@
 ## 頁面
 
 - `index.html`：航班資訊與旅程摘要
-- `itinerary.html`：八天七夜冬季自駕行程、每日路線與安全須知
+- `itinerary.html`：八天七夜函館—旭川冬季自駕行程、企鵝散步、每日路線與安全須知
 - `map.html`：Google Maps 旅遊清單與目前收錄地點
 - `styles.css`：全站共用樣式
 
