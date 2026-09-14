@@ -5,11 +5,12 @@
 ## 頁面
 
 - `index.html`：航班資訊與旅程摘要
+- `itinerary.html`：八天七夜冬季自駕行程、每日路線與安全須知
 - `map.html`：Google Maps 旅遊清單與目前收錄地點
 - `styles.css`：全站共用樣式
 
 ## 後續編輯
 
-旅遊資訊以 HTML 為主。新增頁面時，沿用現有頁首、導覽與頁尾，並在兩個既有頁面的導覽列加入新連結。
+旅遊資訊以 HTML 為主。新增頁面時，沿用現有頁首、導覽與頁尾，並在既有頁面的導覽列加入新連結。
 
 Google Maps 清單：<https://maps.app.goo.gl/SqKRLP3XDSe2Le6X7>
