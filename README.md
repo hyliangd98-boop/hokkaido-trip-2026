@@ -6,6 +6,7 @@
 
 - `index.html`：航班資訊與旅程摘要
 - `itinerary.html`：八天七夜函館—旭川冬季自駕行程、企鵝散步、每日路線與安全須知
+- `weather.html`：2026 年冬季展望、2025 年同期全北海道分區積雪比較
 - `map.html`：Google Maps 旅遊清單與目前收錄地點
 - `styles.css`：全站共用樣式
 
