@@ -18,6 +18,10 @@
 Google Maps 清單：<https://maps.app.goo.gl/SqKRLP3XDSe2Le6X7>
 # 每日地圖與照片
 
+每一天另有一張可縮放的完整地理路線圖（`itinerary-route-maps.js` / `itinerary-routes.js`），保留來回與重複經過的停靠點。主線編號連接起點、停靠點和終點，橘色標示備選支線。住宿飯店尚未提供的城市以站區或溫泉区代表。
+
+底圖使用 OpenStreetMap（保留 attribution），Leaflet 1.9.4 保留原始授權。OSRM 道路線形是一次性取得的規劃參考，並非 Google 即時導航，未納入冬季道路管制或停車限制；交通混合路段及備選虛線是順序示意。地點定位來源記錄於路線資料中。地圖僅在讀者捲動到該日期時載入圖磚，不預抓或提供圖磚離線下載。
+
 `itinerary.html` 的每日行程附當天 Google Maps 路線，以及各景點、餐廳和備選活動的地點連結、三張參考照片。資料在 `itinerary-places.js`，由 `itinerary-gallery.js` 呈現；重複經過的地點在相應日期再次顯示。
 
 照片保留原始來源與作者網站連結，圖片權利歸原作者。部分載入不穩定的圖片存於 `assets/places/`，資料中的 `originalUrl` 保留原圖連結。圖片不是出遊日期的實際雪況，也不保證活動開放。不得用其他店家、同張圖片的不同裁切或示意圖補足三張。

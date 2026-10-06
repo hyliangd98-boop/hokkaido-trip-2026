@@ -33,7 +33,7 @@
     nav.append(jump);
     const stops = places.filter(place => place.days.includes(number));
     const section = make('section', 'day-gallery');
-    const heading = make('h4', '', 'Google Maps 與景點照片');
+    const heading = make('h4', '', '整天路線圖・Google Maps・景點照片');
     heading.id = `gallery-heading-${number}`;
     section.setAttribute('aria-labelledby', heading.id);
     section.append(heading);

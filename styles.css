@@ -2153,6 +2153,20 @@ a {
   }
 }
 /* Daily reference galleries: source links, route links and three photos per stop. */
+.daily-route-overview { margin: 0 0 22px; border: 1px solid #c9dce3; border-radius: 12px; background: #fff; overflow: hidden; }
+.daily-route-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 16px; }
+.daily-route-top h5 { font-size: 16px; margin: 0; color: #153a4b; }
+.route-reset-button { cursor: pointer; border: 1px solid #b8cfdc; border-radius: 7px; padding: 7px 10px; background: white; color: #245b8a; white-space: nowrap; }
+.daily-route-map { height: 430px; width: 100%; background: #edf3f6; isolation: isolate; z-index: 0; }
+.daily-route-caption, .daily-route-option-list, .daily-route-disclaimer { margin: 12px 16px; font-size: 12px; line-height: 1.9; color: #516c7b; }
+.daily-route-option-list { color: #9a5b28; }
+.daily-route-stop-list { display: flex; flex-wrap: wrap; list-style: none; gap: 8px; padding: 0; margin: 12px 16px; counter-reset: route-stop; }
+.daily-route-stop-list li { display: flex; gap: 6px; align-items: baseline; border-radius: 7px; padding: 6px 8px; background: #eaf2f7; color: #245b8a; font-size: 12px; line-height: 1.6; counter-increment: route-stop; }
+.daily-route-stop-list li::before { content: counter(route-stop); font-weight: 800; }
+.route-number-marker span, .route-option-marker span { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; background: #245b8a; border: 2px solid white; border-radius: 999px; box-shadow: 0 1px 5px #0005; color: white; font-size: 11px; font-weight: 800; }
+.route-option-marker span { background: #c67d32; }
+.route-popup p { margin: 5px 0; }
+@media (max-width: 600px) { .daily-route-map { height: 340px; } .daily-route-top { padding: 12px; } .daily-route-top h5 { font-size: 14px; } }
 .gallery-intro { color: #546c78; font-size: 14px; line-height: 1.8; max-width: 680px; }
 .day-jump-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; }
 .day-jump-nav a { border: 1px solid #c9dce3; border-radius: 999px; padding: 8px 16px; color: #153a4b; background: white; font-size: 14px; text-decoration: none; }
