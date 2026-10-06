@@ -1,6 +1,60 @@
 /* Real place reference photos; external sources retain ownership. Updated 2026-10-06. */
 window.ITINERARY_PLACES = [
   {
+    "id": "chiikawa-otaru",
+    "name": "吉伊卡哇 もぐもぐ本舗 小樽店",
+    "q": "ちいかわもぐもぐ本舗 小樽店",
+    "days": [
+      4
+    ],
+    "note": "12/15 09:30–10:30 主線逛店；堺町6-1，現行09:30–17:30。小樽限定商品依現場庫存；出發前查官方入場預約／整理券公告。相鄰吉伊卡哇雞蛋糕10:00–17:00，可順便買點心，忙碌時可能提早停止受理。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%82%82%E3%81%90%E3%82%82%E3%81%90%E6%9C%AC%E8%88%97%20%E5%B0%8F%E6%A8%BD%E5%BA%97",
+    "photos": [
+      {
+        "source": "https://www.chiikawamogumogu.jp/stores/otaru/",
+        "url": "https://www.chiikawamogumogu.jp/prod/wp-content/uploads/2026/06/%E5%B0%8F%E6%A8%BDLP%E7%94%A8_%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E5%86%99%E7%9C%9F1.jpg",
+        "title": "小樽店官方實景照片 1"
+      },
+      {
+        "source": "https://www.chiikawamogumogu.jp/stores/otaru/",
+        "url": "https://www.chiikawamogumogu.jp/prod/wp-content/uploads/2026/06/%E5%B0%8F%E6%A8%BDLP%E7%94%A8_%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E5%86%99%E7%9C%9F2.jpg",
+        "title": "小樽店官方實景照片 2"
+      },
+      {
+        "source": "https://www.chiikawamogumogu.jp/stores/otaru/",
+        "url": "https://www.chiikawamogumogu.jp/prod/wp-content/uploads/2026/06/%E5%B0%8F%E6%A8%BDLP%E7%94%A8_%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89%E3%82%B7%E3%83%A7%E3%83%BC%E5%86%99%E7%9C%9F3.jpg",
+        "title": "小樽店官方實景照片 3"
+      }
+    ]
+  },
+  {
+    "id": "chiikawa-sapporo",
+    "name": "吉伊卡哇 ちいかわらんど 札幌 PARCO 店",
+    "q": "ちいかわらんど 札幌パルコ店",
+    "days": [
+      4
+    ],
+    "note": "12/15 16:00–17:00 主線逛店；札幌PARCO本館B2F（南1條西3-3），現行10:00–20:00。大通公園後、狸小路／TNOC前步行串連；新品日或人潮多時可能限制入場，出發前查官方公告。商品與限定款庫存不保證。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%82%89%E3%82%93%E3%81%A9%20%E6%9C%AD%E5%B9%8C%E3%83%91%E3%83%AB%E3%82%B3%E5%BA%97",
+    "photos": [
+      {
+        "source": "https://nanndemoiiyosonnnano.com/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%82%89%E3%82%93%E3%81%A9%E3%80%80%E6%9C%AD%E5%B9%8C%E3%83%91%E3%83%AB%E3%82%B3%E5%BA%97%E3%80%80%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%82%AA",
+        "url": "https://nanndemoiiyosonnnano.com/wp-content/uploads/2025/07/IMG_5545-768x1024.jpeg",
+        "title": "札幌店迎賓角色實景（2025改裝後訪店紀錄）"
+      },
+      {
+        "source": "https://nanndemoiiyosonnnano.com/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%82%89%E3%82%93%E3%81%A9%E3%80%80%E6%9C%AD%E5%B9%8C%E3%83%91%E3%83%AB%E3%82%B3%E5%BA%97%E3%80%80%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%82%AA",
+        "url": "https://nanndemoiiyosonnnano.com/wp-content/uploads/2025/07/IMG_5546-1024x768.jpeg",
+        "title": "札幌店內與商品陳列（2025改裝後訪店紀錄）"
+      },
+      {
+        "source": "https://nanndemoiiyosonnnano.com/%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%82%89%E3%82%93%E3%81%A9%E3%80%80%E6%9C%AD%E5%B9%8C%E3%83%91%E3%83%AB%E3%82%B3%E5%BA%97%E3%80%80%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB%E3%82%AA",
+        "url": "https://nanndemoiiyosonnnano.com/wp-content/uploads/2025/07/IMG_5547-634x1024.jpeg",
+        "title": "札幌店角色牆面（2025改裝後訪店紀錄）"
+      }
+    ]
+  },
+  {
     "id": "lucky",
     "name": "小丑漢堡灣區本店",
     "q": "ラッキーピエロ ベイエリア本店",
