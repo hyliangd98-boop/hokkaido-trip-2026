@@ -454,6 +454,14 @@ window.ITINERARY_ROUTES = [
     ],
     "optional": [
       {
+        "id": "mildseven",
+        "name": "Mild Seven之丘（待討論・冬季停車未確認）",
+        "from": "falls",
+        "lat": 43.59780377912331,
+        "lon": 142.42655331606431,
+        "source": "https://hokkaido.press/kamikawa/mild-seven/"
+      },
+      {
         "id": "bibai",
         "name": "美唄10km雪地摩托",
         "from": "cambia",
@@ -563,6 +571,14 @@ window.ITINERARY_ROUTES = [
       }
     ],
     "optional": [
+      {
+        "id": "kofuku",
+        "name": "幸福駅（待討論・非原主線途經）",
+        "from": "otofuke",
+        "lat": 42.7452974333333,
+        "lon": 143.161881555556,
+        "source": "https://www.visit-hokkaido.jp/tw/spot/detail_10129.html"
+      },
       {
         "id": "koyamame",
         "name": "koyamame roastery（Yabi想去・時段待調整）",

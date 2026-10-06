@@ -19,6 +19,12 @@ for (const place of places) {
 assert(days[2].stops.some(s => s.id === 'hanazono'));
 assert(days[2].optional.some(s => s.id === 'whiteisle'));
 assert(days[4].optional.some(s => /美唄/.test(s.name)));
+for (const [day, id] of [[5, 'mildseven'], [7, 'kofuku'], [7, 'koyamame']]) {
+  assert(days[day - 1].optional.some(s => s.id === id), `${id}: pending candidate marker`);
+  assert(!days[day - 1].stops.some(s => s.id === id), `${id}: not confirmed as primary stop`);
+}
+assert(places.find(p => p.id === 'mildseven').note.includes('歷史照片'), 'mildseven: historical photos warning');
+assert(places.find(p => p.id === 'falls').note.includes('蒂芬妮綠'), 'falls: photo preference');
 const dynamicIds = new Set(days.map(d => `day-${d.day}`));
 for (const p of places) for (const day of p.days) dynamicIds.add(`place-${day}-${p.id}`);
 for (const file of pages) {

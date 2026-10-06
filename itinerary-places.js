@@ -1,5 +1,59 @@
 /* Real place reference photos; external sources retain ownership. Updated 2026-10-06. */
 window.ITINERARY_PLACES = [
+  {
+    "id": "mildseven",
+    "name": "マイルドセブンの丘（Mild Seven之丘・待討論）",
+    "q": "マイルドセブンの丘",
+    "days": [
+      5
+    ],
+    "note": "Yabi想去｜12/16美瑛段待討論候選，非固定停留；是否必去尚未確認。私有農地，只在允許觀賞区參觀，冬季除雪／合法停車未確認，不保證可自駕停留；不是セブンスターの木。現行聖誕樹約16:00，再加此點須重排白天景觀時段。重要：下列三張為來源註明約2018年的歷史照片，樹林伐採後景色已改變，不代表目前外觀或12月雪況。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E3%83%9E%E3%82%A4%E3%83%AB%E3%83%89%E3%82%BB%E3%83%96%E3%83%B3%E3%81%AE%E4%B8%98%20%E7%BE%8E%E7%91%9B",
+    "photos": [
+      {
+        "source": "https://hokkaido.press/kamikawa/mild-seven/",
+        "url": "https://hokkaido.press/wp-content/uploads/2019/07/mild-seven025-730x487.jpg",
+        "title": "約2018年歷史實景 1（來源註明伐採後已不同）"
+      },
+      {
+        "source": "https://hokkaido.press/kamikawa/mild-seven/",
+        "url": "https://hokkaido.press/wp-content/uploads/2019/07/mild-seven027-730x487.jpg",
+        "title": "約2018年歷史實景 2（來源註明伐採後已不同）"
+      },
+      {
+        "source": "https://hokkaido.press/kamikawa/mild-seven/",
+        "url": "https://hokkaido.press/wp-content/uploads/2019/07/mild-seven001-730x487.jpg",
+        "title": "約2018年歷史實景 3（來源註明伐採後已不同）"
+      }
+    ]
+  },
+  {
+    "id": "kofuku",
+    "name": "幸福駅（帶廣・回程待討論）",
+    "q": "幸福駅 帯広",
+    "days": [
+      7
+    ],
+    "note": "Yabi想去｜12/18十勝回程待討論候選，尚未確認加入主線。木造站舍、橘色柴油列車與幸福紀念車票；停留可預留30–45分鐘。位於帶廣南側，須繞路，不是原音更上高速路線直接途經。官方目前冬季賣店09:30–15:00、免費停車；不代表公園整體開放時間，當日營業再確認。若與長沼咖啡館15:00包場都加入，需重排十勝停留及登別到達／飯店晚餐。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B8%E7%A6%8F%E9%A7%85%20%E5%B8%AF%E5%BA%83",
+    "photos": [
+      {
+        "source": "https://www.visit-hokkaido.jp/tw/spot/detail_10129.html",
+        "url": "https://www.visit-hokkaido.jp/lsc/upfile/spot/0001/0129/10129_10_l.jpg",
+        "title": "幸福駅官方實景照片 1"
+      },
+      {
+        "source": "https://www.visit-hokkaido.jp/tw/spot/detail_10129.html",
+        "url": "https://www.visit-hokkaido.jp/lsc/upfile/spot/0001/0129/10129_2_l.jpg",
+        "title": "幸福駅官方實景照片 2"
+      },
+      {
+        "source": "https://www.visit-hokkaido.jp/tw/spot/detail_10129.html",
+        "url": "https://www.visit-hokkaido.jp/lsc/upfile/spot/0001/0129/10129_8_l.jpg",
+        "title": "幸福駅官方實景照片 3"
+      }
+    ]
+  },
 {
   "id": "koyamame",
   "name": "koyamame roastery（長沼町・一樓包場咖啡館）",
@@ -1102,7 +1156,7 @@ window.ITINERARY_PLACES = [
     "days": [
       5
     ],
-    "note": "",
+    "note": "已在12/16主線｜Yabi想拍蒂芬妮綠冬景：藍綠主要是下方美瑛川河水，搭配雪、霧冰，非保證整片綠色冰瀑。實際色澤依光線／天候；目前白金段約16:45–17:30通常天黑，偏夜間點燈，若要自然光照片需另行重排，這次不改固定順序。",
     "maps": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E7%91%9B%20%E7%99%BD%E3%81%B2%E3%81%92%E3%81%AE%E6%BB%9D%20%E5%86%AC",
     "photos": [
       {
