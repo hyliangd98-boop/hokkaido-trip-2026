@@ -439,6 +439,33 @@ window.ITINERARY_PLACES = [
     ]
   },
   {
+    "id": "hanazono",
+    "name": "HANAZONO Tube Park 雪圈滑坡",
+    "q": "Hanazono 308 Niseko",
+    "days": [
+      3
+    ],
+    "note": "主行程・60 分鐘，含報到預留1～1.5小時；當日櫃檯登記，依積雪開放。照片包含夜間版，行程安排日間場。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Hanazono+308+Niseko",
+    "photos": [
+      {
+        "source": "https://hanazononiseko.com/ja/winter/activities/tube-park",
+        "url": "https://cdn.hanazononiseko.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBblErIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c0f866e633f8c7899b6fb3830ab3425f3266d842/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdERG9MWm05eWJXRjBPZ2xxY0dWbk9oUnpZVzF3YkdsdVoxOW1ZV04wYjNKSklnbzBPakk2TUFZNkJrVlVPZ3B6ZEhKcGNGUTZEbWx1ZEdWeWJHRmpaVWtpQ1VwUVJVY0dPd2hVT2c5amIyeHZjbk53WVdObFNTSUpjMUpIUWdZN0NGUTZESEYxWVd4cGRIbHBWVG9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWtBR2FRSkFCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--00af911dca67b1e1e9227acf33d706adb97ce918/tubing.jpg",
+        "title": "HANAZONO 官方雪圈滑坡參考照片"
+      },
+      {
+        "source": "https://hanazononiseko.com/ja/winter/activities/tube-park",
+        "url": "https://cdn.hanazononiseko.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbHN0IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--6a81f76b29e002efaee88f87314618d7ea022fa1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdERG9MWm05eWJXRjBPZ2xxY0dWbk9oUnpZVzF3YkdsdVoxOW1ZV04wYjNKSklnbzBPakk2TUFZNkJrVlVPZ3B6ZEhKcGNGUTZEbWx1ZEdWeWJHRmpaVWtpQ1VwUVJVY0dPd2hVT2c5amIyeHZjbk53WVdObFNTSUpjMUpIUWdZN0NGUTZESEYxWVd4cGRIbHBWVG9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWlBRGFRSWdBdz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--b15f97856acf12144fb526267079018b0501020c/tubing-single.jpg",
+        "title": "HANAZONO 官方雪圈滑坡參考照片"
+      },
+      {
+        "source": "https://hanazononiseko.com/ja/winter/activities/tube-park",
+        "url": "https://cdn.hanazononiseko.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaUkwIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--990ab266d91f8a528bf1e7751c56c56da32364ce/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdERG9MWm05eWJXRjBPZ2xxY0dWbk9oUnpZVzF3YkdsdVoxOW1ZV04wYjNKSklnbzBPakk2TUFZNkJrVlVPZ3B6ZEhKcGNGUTZEbWx1ZEdWeWJHRmpaVWtpQ1VwUVJVY0dPd2hVT2c5amIyeHZjbk53WVdObFNTSUpjMUpIUWdZN0NGUTZESEYxWVd4cGRIbHBWVG9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQWlBRGFRSWdBdz09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--b15f97856acf12144fb526267079018b0501020c/night-tubing.jpg",
+        "title": "HANAZONO 官方雪圈滑坡參考照片"
+      }
+    ]
+  },
+  {
     "id": "whiteisle",
     "name": "White Isle 雪地摩托",
     "q": "ホワイトアイル ニセコ スノーモービル",
