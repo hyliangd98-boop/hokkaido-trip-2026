@@ -16,3 +16,8 @@
 旅遊資訊以 HTML 為主。新增頁面時，沿用現有頁首、導覽與頁尾，並在既有頁面的導覽列加入新連結。
 
 Google Maps 清單：<https://maps.app.goo.gl/SqKRLP3XDSe2Le6X7>
+# 每日地圖與照片
+
+`itinerary.html` 的每日行程附當天 Google Maps 路線，以及各景點、餐廳和備選活動的地點連結、三張參考照片。資料在 `itinerary-places.js`，由 `itinerary-gallery.js` 呈現；重複經過的地點在相應日期再次顯示。
+
+照片保留原始來源與作者網站連結，圖片權利歸原作者。部分載入不穩定的圖片存於 `assets/places/`，資料中的 `originalUrl` 保留原圖連結。圖片不是出遊日期的實際雪況，也不保證活動開放。不得用其他店家、同張圖片的不同裁切或示意圖補足三張。
