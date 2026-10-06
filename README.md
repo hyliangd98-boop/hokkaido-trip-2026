@@ -18,7 +18,9 @@
 
 旅遊資訊以 HTML 為主。新增頁面時，沿用現有頁首、導覽與頁尾，並在既有頁面的導覽列加入新連結。
 
-Google Maps 清單：<https://maps.app.goo.gl/SqKRLP3XDSe2Le6X7>
+Google Maps 北海道旅遊清單：<https://maps.app.goo.gl/SqKRLP3XDSe2Le6X7>
+
+Google Maps 北海道百名店清單：<https://maps.app.goo.gl/fXN8q8b5jq3vrfaE8>（2026-10-06 使用既有 Chrome 確認已分享、336 個地點；保留既有店家註解，未修改收藏或分享權限）。網站地圖頁、首頁與行程頁提供入口；地點數量以外部清單最新顯示為準。
 # 每日地圖與照片
 
 每一天另有一張可縮放的完整地理路線圖（`itinerary-route-maps.js` / `itinerary-routes.js`），保留來回與重複經過的停靠點。主線編號連接起點、停靠點和終點，橘色標示備選支線。住宿飯店尚未提供的城市以站區或溫泉区代表。
