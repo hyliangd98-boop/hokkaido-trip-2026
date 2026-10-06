@@ -1,5 +1,32 @@
 /* Real place reference photos; external sources retain ownership. Updated 2026-10-06. */
 window.ITINERARY_PLACES = [
+{
+  "id": "koyamame",
+  "name": "koyamame roastery（長沼町・一樓包場咖啡館）",
+  "q": "koyamame roastery 長沼",
+  "days": [
+    7
+  ],
+  "note": "Yabi 想去｜暫掛12/18回程待調整，非固定停留、未預約。長沼町馬追丘陵，丘の上珈琲1F；一次一組、最多5人，90分鐘每人¥1,000＋飲食另計。官方場次11:00–12:30／13:00–14:30／15:00–16:30；前一天以前線上預約，當天僅現場有空位才可能受理。先到2F受付、點餐付款，勿自行入內見學。2F官方週三休，12/16先避開；1F當日開放仍以預約頁確認。若12/18選15:00場，需重排十勝停留及登別抵達／飯店晚餐，不能沿用原16:30–18:00到達估算。冬季臨休與場次待確認。",
+  "maps": "https://goo.gl/maps/RdkHkToARGoGVkce6",
+  "photos": [
+    {
+      "source": "https://www.koyamameroastery.com/",
+      "url": "https://www.koyamameroastery.com/asset/img/top/img_top_01_02_pc.jpg",
+      "title": "koyamame roastery 官方空間照片 1"
+    },
+    {
+      "source": "https://www.koyamameroastery.com/",
+      "url": "https://www.koyamameroastery.com/asset/img/top/img_top_02_pc.jpg",
+      "title": "koyamame roastery 官方空間照片 2"
+    },
+    {
+      "source": "https://www.koyamameroastery.com/",
+      "url": "https://www.koyamameroastery.com/asset/img/top/img_top_03_pc.jpg",
+      "title": "koyamame roastery 官方空間照片 3"
+    }
+  ]
+},
   {
     "id": "chiikawa-otaru",
     "name": "吉伊卡哇 もぐもぐ本舗 小樽店",
