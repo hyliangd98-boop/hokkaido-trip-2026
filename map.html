@@ -10,7 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261006-review">
+  <script src="itinerary-places.js" defer></script>
+  <script src="map-directory.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳至主要內容</a>
@@ -26,6 +28,8 @@
       <a class="nav-link" href="rental.html">租車</a>
       <a class="nav-link" href="weather.html">雪況</a>
       <a class="nav-link active" href="map.html" aria-current="page">旅遊地圖</a>
+      <a class="nav-link" href="snowmobile.html">玩雪活動</a>
+      <a class="nav-link" href="stays.html">特色住宿</a>
     </nav>
   </header>
 
@@ -37,7 +41,7 @@
       <div>
         <p class="eyebrow">SAVED PLACES</p>
         <h1>北海道旅遊地圖</h1>
-        <p>餐廳、甜點、景點與旅途靈感，都集中收藏在這份 Google Maps 清單。</p>
+        <p>每日完整路線、各地點導航與既有 Google Maps 收藏清單，在這裡分開整理；網站收錄不等於外部清單已同步。</p>
       </div>
     </section>
 
@@ -51,9 +55,9 @@
         <span class="map-label">HOKKAIDO</span>
       </div>
       <div class="map-card-content">
-        <span class="status-badge">已分享 · 僅供查看</span>
+        <span class="status-badge">既有分享連結 · 外部清單</span>
         <h2 id="map-card-heading">北海道旅遊</h2>
-        <p>目前收錄甜點與咖啡店，後續討論確認的地點會繼續加入。開啟連結後可直接查看店家位置、導航與清單附註。</p>
+        <p>保留先前分享的「北海道旅遊」Google Maps 收藏清單。本次更新網站的景點、雪圈與住宿候選，不代表已修改這份外部清單；實際收錄與分享權限以 Google Maps 顯示為準。</p>
         <dl class="map-facts">
           <div>
             <dt>清單擁有者</dt>
@@ -61,22 +65,22 @@
           </div>
           <div>
             <dt>分享權限</dt>
-            <dd>知道連結者可查看</dd>
+            <dd>依 Google Maps 目前顯示；本站未變更權限</dd>
           </div>
         </dl>
         <a class="primary-button wide" href="https://maps.app.goo.gl/SqKRLP3XDSe2Le6X7" target="_blank" rel="noopener noreferrer">
           在 Google Maps 開啟
           <span aria-hidden="true">↗</span>
         </a>
-        <p class="privacy-note">Google Maps 會顯示清單擁有者的帳戶名稱與相片；知道連結者無法編輯。</p>
+        <p class="privacy-note">Google Maps 可能顯示清單擁有者的帳戶名稱與相片；本站不提供外部清單編輯功能。</p>
       </div>
     </section>
 
     <section class="saved-preview" aria-labelledby="saved-heading">
       <div class="section-heading compact">
         <div>
-          <p class="eyebrow dark">FIRST SAVES</p>
-          <h2 id="saved-heading">目前收錄</h2>
+          <p class="eyebrow dark">EARLY REFERENCES</p>
+          <h2 id="saved-heading">最初收藏參考，不是完整行程</h2>
         </div>
       </div>
       <div class="place-grid">
@@ -92,11 +96,25 @@
         </article>
       </div>
     </section>
+    <section class="saved-preview" aria-labelledby="routes-heading">
+      <div class="section-heading compact"><div><p class="eyebrow dark">DAILY ROUTES</p><h2 id="routes-heading">八天完整路線圖</h2></div></div>
+      <div class="quick-actions">
+        <a class="text-button" href="itinerary.html#day-1">12/12 函館</a><a class="text-button" href="itinerary.html#day-2">12/13 函館→東室蘭</a><a class="text-button" href="itinerary.html#day-3">12/14 洞爺湖→雪圈→小樽</a><a class="text-button" href="itinerary.html#day-4">12/15 小樽→札幌</a><a class="text-button" href="itinerary.html#day-5">12/16 富良野→美瑛→旭川</a><a class="text-button" href="itinerary.html#day-6">12/17 動物園→層雲峽</a><a class="text-button" href="itinerary.html#day-7">12/18 三國峠→登別</a><a class="text-button" href="itinerary.html#day-8">12/19 回函館還車</a>
+      </div>
+      <p>每日地理路線圖使用 OpenStreetMap；Google Maps 導航另外提供。道路線形未包含即時雪況與封路，備選地點不等於主線停靠。</p>
+    </section>
+    <section class="saved-preview" aria-labelledby="directory-heading">
+      <div class="section-heading compact"><div><p class="eyebrow dark">WEBSITE PLACE DIRECTORY</p><h2 id="directory-heading">目前網站行程收錄</h2></div><p id="directory-count" class="section-note">依每日行程資料載入</p></div>
+      <p>下列包含主行程、餐廳候選與備選活動，各地點的狀態及限制以每日註解為準。特色住宿另見 <a href="stays.html">住宿候選頁</a>。</p>
+      <div class="place-grid" id="place-directory"></div>
+      <noscript><p>請啟用 JavaScript 查看完整地點目錄；或直接開啟 <a href="itinerary.html">每日行程</a> 閱讀。</p></noscript>
+      <p>影片說明中的 RINGO「天神地下街店」位於福岡，不加入北海道路線；兩個 Kitano Gurume 縮短連結無法單憑截斷網址認定不同分店，待原始完整連結核對。</p>
+    </section>
   </main>
 
   <footer class="footer">
     <p>北海道旅遊 · 2026.12.12—12.19</p>
-    <p><a href="index.html">返回航班資訊</a></p>
+    <p>全站內容核對：2026 年 10 月 6 日 · <a href="index.html">返回航班資訊</a></p>
   </footer>
 </body>
 </html>

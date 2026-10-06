@@ -85,6 +85,8 @@ a {
 
 .nav {
   display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
   gap: 8px;
   padding: 5px;
   background: rgba(255, 255, 255, 0.58);
@@ -705,6 +707,19 @@ a {
   color: var(--muted);
   font-size: 14px;
 }
+
+.place-card > a {
+  display: inline-block;
+  margin-top: 14px;
+  margin-right: 12px;
+  overflow-wrap: anywhere;
+}
+
+.nav-link { white-space: nowrap; }
+.site-header { flex-wrap: wrap; gap: 12px; }
+.quick-actions { flex-wrap: wrap; }
+.rental-hero > * { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+
 
 /* Self-drive itinerary */
 .itinerary-main {

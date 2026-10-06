@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261006-review">
 </head>
 <body>
   <a class="skip-link" href="#main">跳至主要內容</a>
@@ -26,6 +26,8 @@
       <a class="nav-link" href="rental.html">租車</a>
       <a class="nav-link active" href="weather.html" aria-current="page">雪況</a>
       <a class="nav-link" href="map.html">旅遊地圖</a>
+      <a class="nav-link" href="snowmobile.html">玩雪活動</a>
+      <a class="nav-link" href="stays.html">特色住宿</a>
     </nav>
   </header>
 
@@ -38,9 +40,9 @@
       </div>
       <div class="weather-status" aria-label="目前預報狀態">
         <span>資料判讀日</span>
-        <strong>2026.09.14</strong>
-        <p>官方寒候期預報尚未發布</p>
-        <small>下一次關鍵更新：9/18 14:00</small>
+        <strong>2026.10.06</strong>
+        <p>已核對 9/18 官方寒候期預報</p>
+        <small>下一次檢查：10/20 季節預報</small>
       </div>
     </section>
 
@@ -55,12 +57,12 @@
         <article class="forecast-card pending-card">
           <span>01</span>
           <h3>還沒有 12 月逐日雪量預報</h3>
-          <p>距離旅程約三個月，任何「12/12 某地會下幾公分」都是假精確。氣象廳將於 9/18 發布寒候期與三個月預報。</p>
+          <p>距離旅程仍有約兩個月，季節預報不是 12/12～19 的逐日預報，無法據此預測某天、某景點會有幾公分積雪。</p>
         </article>
         <article class="forecast-card">
           <span>02</span>
-          <h3>強聖嬰幾乎確定延續到冬季</h3>
-          <p>氣象廳 9/9 判定冬季持續聖嬰的機率為 100%。歷史上北日本冬季前半偏暖，但不能直接推導為北海道全境少雪。</p>
+          <h3>北海道冬季氣溫：正常或偏暖</h3>
+          <p>9/18 寒候期預報涵蓋 2026/12～2027/2：北海道平均氣溫偏低 20%、正常 40%、偏高 40%。這是三個月平均，不代表你們旅行那一週暖或沒有雪。</p>
         </article>
         <article class="forecast-card action-card">
           <span>03</span>
@@ -68,7 +70,7 @@
           <p>12 月中旬，道北、道央內陸與日本海側通常已是壓雪／結冰環境；沿海少雪地區反而更容易遇到融雪再結冰。</p>
         </article>
       </div>
-      <p class="forecast-note"><strong>暫定研判：</strong>2026 年可能出現較暖、降雪分布不平均、融雪與再結冰頻繁的型態；但正式的「偏多／正常／偏少」要等 9/18 官方寒候期預報，不能只靠聖嬰下結論。</p>
+      <p class="forecast-note"><strong>官方冬季降雪展望：</strong>北海道日本海側降雪量偏少 40%、正常 40%、偏多 20%；不能解讀成「沒有雪的機率 40%」，也不能直接套用到太平洋側或單一雪場。資料為氣象廳 2026/9/18 發布、2026/10/6 核對的北海道寒候期預報。<a href="https://www.jma.go.jp/bosai/season/#area_type=offices&amp;area_code=010100&amp;term=season" target="_blank" rel="noopener noreferrer">官方季節預報 ↗</a></p>
     </section>
 
     <section class="weather-section last-year" aria-labelledby="last-year-heading">
@@ -108,14 +110,14 @@
           </tbody>
         </table>
       </div>
-      <p class="table-note">測站數字代表該測站當日最深積雪，不代表整個區域平均；山區、峠道與吹積雪處通常比城市測站深得多。</p>
+      <p class="table-note">測站數字代表該測站當日最深積雪，不代表整區平均或今年預測。2026/10/6 已重查上述測站；表中0包含官方「--」（未出現該現象），不是把缺測符號「×」當零。山區、峠道與吹積雪處可能比城市測站深得多。</p>
     </section>
 
     <section class="weather-section" aria-labelledby="island-heading">
       <div class="section-heading compact">
         <div>
           <p class="eyebrow dark">WHOLE ISLAND VIEW</p>
-          <h2 id="island-heading">2026 各區暫定判讀</h2>
+          <h2 id="island-heading">十二月中旬各區的氣候傾向</h2>
         </div>
       </div>
       <div class="region-grid">
@@ -137,9 +139,11 @@
       </div>
       <div class="impact-list">
         <article><strong>函館—登別</strong><p>函館市區可能看起來雪少，但大沼、長萬部與道路陰影處仍會結冰；不能用機場路況代表整段國道。</p></article>
-        <article><strong>札幌—富良野—美瑛—旭川</strong><p>是最可能全程雪路的一天，也是最需要在出發前依能見度決定走 274／237 或改高速的路段。</p></article>
+        <article><strong>12/14 洞爺湖—羊蹄山—二世谷—小樽</strong><p>保留真狩至二世谷的道道 66 號山麓段，不走冬季封閉高山段。HANAZONO 雪圈列主行程，但仍要確認雪圈區已開放；市區有積雪不代表活動雪道已完成整備。</p></article>
+        <article><strong>12/16 札幌—三笠—富良野—美瑛—旭川</strong><p>カンビア之後走桂澤湖周邊交通主線，依管制可改瀧川、國道 38 號。不排國道 237 號專門景觀停留，但交通仍可使用；白金至十勝岳的高山段不穿越。</p></article>
         <article><strong>旭山動物園</strong><p>去年 12/17 旭川測站已有 31 cm，但企鵝散步到 12/18 才開始；市區積雪深不能直接預測園方是否開放活動。</p></article>
-        <article><strong>千歲—支笏湖—函館</strong><p>千歲本身可能只有十多公分，支笏湖與山路仍可能是壓雪路；遇吹雪就取消湖畔繞行，直接走主線。</p></article>
+        <article><strong>12/18 層雲峽—三國峠—糠平—十勝—登別</strong><p>國道 273 號主線仍可能臨時封路；確認風、能見度、除雪與高速管制。封路改由上川／旭川走道央高速，放棄三國峠與十勝；十二月不預設糠平湖可上冰面。</p></article>
+        <article><strong>12/19 登別—函館機場</strong><p>06:30 出發，以 15:00 還車優先；不再繞支笏湖。大沼／五稜郭只在有充足緩衝時擇一，雪況延誤就全部取消。</p></article>
       </div>
     </section>
 
@@ -151,10 +155,11 @@
         </div>
       </div>
       <ol class="update-timeline">
-        <li><time>9/18</time><div><strong>寒候期＋三個月預報</strong><p>第一次可正式判斷北海道冬季氣溫與日本海側降雪偏多、正常或偏少。</p></div></li>
-        <li><time>11/24</time><div><strong>涵蓋 12–2 月的三個月預報</strong><p>比 9 月版更接近旅程，重新檢查整體路線與企鵝散步機率。</p></div></li>
-        <li><time>12/10</time><div><strong>一個月預報＋短期預報</strong><p>開始看 12/12 前後寒氣、降雪量與道路封閉風險。</p></div></li>
-        <li><time>每天 06:30</time><div><strong>實況決策</strong><p>積雪、風、能見度、高速公路與國道攝影機一起判讀，再決定是否走景觀支線。</p></div></li>
+        <li><time>已核對</time><div><strong>9/18 寒候期預報</strong><p>北海道氣溫與日本海側降雪機率已更新；不是逐日或單一雪場預報。</p></div></li>
+        <li><time>10/20</time><div><strong>檢查季節預報更新</strong><p>官方預定隨十月三個月預報重新檢討寒候期內容，有變更才修正。</p></div></li>
+        <li><time>11 月版</time><div><strong>最新三個月預報</strong><p>再檢查十二月至二月展望；企鵝散步仍須另外看動物園公告，不能由季節預報推定。</p></div></li>
+        <li><time>出發前</time><div><strong>短期預報與活動開放</strong><p>12 月初、出發前 48 小時核對雪圈、摩托、冬季道路與企鵝散步公告。</p></div></li>
+        <li><time>06:30 前</time><div><strong>每天實況決策</strong><p>離開住宿前查積雪、風、能見度、高速公路與國道攝影機，決定是否走景觀支線。</p></div></li>
       </ol>
     </section>
 
@@ -162,21 +167,31 @@
       <h2 id="weather-source-heading">官方資料來源</h2>
       <div class="source-links">
         <a href="https://www.jma.go.jp/jma/kishou/know/kisetsu_riyou/calendar/index.html" target="_blank" rel="noopener noreferrer">氣象廳季節預報發布日 ↗</a>
-        <a href="https://www.data.jma.go.jp/cpd/elnino/kanshi_joho/kanshi_joho1.html" target="_blank" rel="noopener noreferrer">2026/9 聖嬰監視速報 ↗</a>
+        <a href="https://www.jma.go.jp/bosai/season/data/P6M/010100.json" target="_blank" rel="noopener noreferrer">北海道 9/18 寒候期預報原始資料 ↗</a>
+        <a href="https://www.data.jma.go.jp/cpd/elnino/kanshi_joho/kanshi_joho1.html" target="_blank" rel="noopener noreferrer">聖嬰監視速報（動態更新）↗</a>
         <a href="https://www.data.jma.go.jp/cpd/data/elnino/learning/tenkou/nihon1.html" target="_blank" rel="noopener noreferrer">聖嬰時日本冬季統計特徵 ↗</a>
         <a href="https://www.data.jma.go.jp/sapporo/tenki/kikou/weatherflush/pdf/sokuhou202512.pdf" target="_blank" rel="noopener noreferrer">北海道 2025/12 天候總結 ↗</a>
-        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_h1.php?block_no=00&amp;day=&amp;month=12&amp;prec_no=12&amp;view=p9&amp;year=2025" target="_blank" rel="noopener noreferrer">上川逐日積雪 ↗</a>
-        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_h1.php?block_no=00&amp;day=&amp;month=12&amp;prec_no=14&amp;view=p9&amp;year=2025" target="_blank" rel="noopener noreferrer">石狩逐日積雪 ↗</a>
-        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_h1.php?block_no=00&amp;day=&amp;month=12&amp;prec_no=16&amp;view=p9&amp;year=2025" target="_blank" rel="noopener noreferrer">後志逐日積雪 ↗</a>
-        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_h1.php?block_no=00&amp;day=&amp;month=12&amp;prec_no=20&amp;view=p9&amp;year=2025" target="_blank" rel="noopener noreferrer">十勝逐日積雪 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=11&amp;block_no=47401&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">稚內 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=11&amp;block_no=47402&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">北見枝幸 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=12&amp;block_no=47407&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">旭川 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_a1.php?prec_no=12&amp;block_no=1052&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">美瑛 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_a1.php?prec_no=12&amp;block_no=0021&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">富良野 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=14&amp;block_no=47412&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">札幌 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=16&amp;block_no=47411&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">小樽 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=16&amp;block_no=47433&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">倶知安 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=17&amp;block_no=47409&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">網走 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=20&amp;block_no=47417&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">帶廣 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=19&amp;block_no=47418&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">釧路 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=21&amp;block_no=47423&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">室蘭 2025/12 ↗</a>
+        <a href="https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=23&amp;block_no=47430&amp;year=2025&amp;month=12&amp;view=p1" target="_blank" rel="noopener noreferrer">函館 2025/12 ↗</a>
       </div>
-      <p>本頁是行程規劃用研判，不是逐日氣象預報。資料會在官方新預報發布後更新。</p>
+      <p>本頁是行程規劃用研判，不是逐日氣象預報或自動更新看板；下方官方連結可能顯示較新公告。區域描述為氣候傾向，2025 數字是歷史觀測，均不保證 2026 指定日期雪況。</p>
     </section>
   </main>
 
   <footer class="footer">
     <p>北海道旅遊 · 2026.12.12—12.19</p>
-    <p><a href="itinerary.html">查看自駕行程</a></p>
+    <p>全站內容核對：2026 年 10 月 6 日 · <a href="itinerary.html">查看自駕行程</a></p>
   </footer>
 </body>
 </html>
