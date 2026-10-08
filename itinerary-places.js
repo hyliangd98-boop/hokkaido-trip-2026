@@ -1,6 +1,60 @@
 /* Real place reference photos; external sources retain ownership. Updated 2026-10-06. */
 window.ITINERARY_PLACES = [
   {
+    "id": "melonpan",
+    "name": "世界第2好吃的烤菠蘿麵包 函館元町店",
+    "q": "世界で2番めにおいしい焼き立てメロンパンアイス 函館元町店",
+    "days": [
+      2
+    ],
+    "note": "Henry指定｜12/13元町散步段、公會堂附近新增15–20分鐘甜點，兩人可分食。元町10-7；現烤麵包夾冰淇淋。縮短建築拍照，不延誤12:30滋養軒、13:15午餐結束及15:00取車；排隊太長略過。食べログ列10:00–18:00、不定休，冬季與當日營業待確認；店名不是客觀排名或百名店資格。照片為2025年遊記，非當日菜單或冬季雪況。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=世界で2番めにおいしい焼き立てメロンパンアイス+函館元町店",
+    "photos": [
+      {
+        "source": "https://magumagudon2.hatenablog.com/entry/2025/04/10/190000",
+        "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/m/magumagudon2/20250405/20250405205924.jpg",
+        "title": "2025年店面實景"
+      },
+      {
+        "source": "https://magumagudon2.hatenablog.com/entry/2025/04/10/190000",
+        "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/m/magumagudon2/20250405/20250405210017.jpg",
+        "title": "2025年店面菜單參考，非現行價格"
+      },
+      {
+        "source": "https://magumagudon2.hatenablog.com/entry/2025/04/10/190000",
+        "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/m/magumagudon2/20250405/20250405210053.jpg",
+        "title": "2025年菠蘿麵包冰淇淋實景"
+      }
+    ]
+  },
+  {
+    "id": "kodomonokuni",
+    "name": "函館公園兒童樂園（12/13休園備選）",
+    "q": "函館公園こどものくに",
+    "days": [
+      2
+    ],
+    "note": "Henry指定第二天備案｜冬季休園，官方列11月下旬至3月中旬；12/13不當作可玩遊具或摩天輪的有效備案。只保留想去紀錄，不加入主線、不挪15:00取車。函館公園散步與樂園營業不同；地圖用公園園區位置示意，非遊具入口。三張為官方非冬季實景，不代表十二月開放。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=函館公園こどものくに",
+    "photos": [
+      {
+        "source": "https://www.hakobura.jp/spots/351",
+        "url": "https://www.hakobura.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTcwNzgsInB1ciI6ImJsb2JfaWQifX0=--f6c96982eb4f85c31ca569edcd16b3353a02bc4e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbMTAyNCxudWxsXX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--9ded8730b5edd02db2112445c498cc9993582ce1/%E2%80%BB%E5%87%BD%E6%96%B0%E6%92%AE%E5%BD%B1%E2%80%BB%E5%87%BD%E9%A4%A8%E5%85%AC%E5%9C%92%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E3%81%8F%E3%81%AB.jpg",
+        "title": "官方非冬季實景 1，十二月休園"
+      },
+      {
+        "source": "https://www.hakobura.jp/spots/351",
+        "url": "https://www.hakobura.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjM1MywicHVyIjoiYmxvYl9pZCJ9fQ==--bc0375b93ed06b64ee883ad5086246da2548dcb7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw2MDBdfSwicHVyIjoidmFyaWF0aW9uIn19--c3ea47a333dc975d3fba7ed73400f68ea43143c4/190725G04.jpg",
+        "title": "官方非冬季實景 2，十二月休園"
+      },
+      {
+        "source": "https://www.hakobura.jp/spots/351",
+        "url": "https://www.hakobura.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjM1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--9b2f373f6b56f25eaae71191706646b7f2c4d447/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJ3ZWJwIiwicmVzaXplX3RvX2ZpdCI6WzgwMCw2MDBdfSwicHVyIjoidmFyaWF0aW9uIn19--c3ea47a333dc975d3fba7ed73400f68ea43143c4/190725G07.jpg",
+        "title": "官方非冬季實景 3，十二月休園"
+      }
+    ]
+  },
+  {
     "id": "mildseven",
     "name": "マイルドセブンの丘（Mild Seven之丘・待討論）",
     "q": "マイルドセブンの丘",

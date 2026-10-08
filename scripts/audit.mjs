@@ -34,7 +34,7 @@ for (const file of pages) {
   assert.equal([...nav.matchAll(/<a /g)].length, 7, `${file}: all pages accessible`);
   assert.equal([...nav.matchAll(/aria-current="page"/g)].length, 1, `${file}: active page`);
   for (const page of pages) assert(nav.includes(`href="${page}"`), `${file}: ${page} nav`);
-  assert(!/202602188790|6398654/.test(html), `${file}: unmasked reservation`);
+  assert(!/202602188790|6398654|5747085295|t8440304@gmail\.com|expenses\.md|88,881|19,051|12,300/.test(html), `${file}: private booking or ledger content`);
   for (const [, href] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     if (/^(https?:|tel:|data:)/.test(href)) continue;
     const [target, hash] = href.split('#');
@@ -50,4 +50,10 @@ const weather = fs.readFileSync(path.join(root, 'weather.html'), 'utf8');
 assert(!/尚未發布|要等 9\/18|走 274／237|千歲—支笏湖—函館|block_no=00&amp;/.test(weather));
 const rental = fs.readFileSync(path.join(root, 'rental.html'), 'utf8');
 assert(!rental.includes('上午開車遊函館'));
+const itinerary = fs.readFileSync(path.join(root, 'itinerary.html'), 'utf8');
+assert(itinerary.includes('OMO5 小樽') && itinerary.includes('PINN-N4E2Ⅱ'));
+assert(!itinerary.includes('僅 12/12 飯店已提供訂單'));
+assert(days[1].stops.some(s => s.id === 'melonpan'));
+assert(days[1].optional.some(s => s.id === 'kodomonokuni'));
+assert(places.find(p => p.id === 'kodomonokuni').note.includes('冬季休園'));
 console.log(`PASS: ${pages.length} pages, ${places.length} places, 8 maps, 3 photos per place, navigation, local links, privacy and stale-content guards.`);
