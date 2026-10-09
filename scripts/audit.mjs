@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import assert from 'node:assert/strict';
 
 const root = path.resolve(import.meta.dirname, '..');
-const pages = ['index.html', 'itinerary.html', 'rental.html', 'weather.html', 'map.html', 'snowmobile.html', 'stays.html'];
+const pages = ['index.html', 'itinerary.html', 'rental.html', 'weather.html', 'map.html', 'snowmobile.html', 'stays.html', 'other-places.html'];
 const ctx = { window: {} };
 for (const file of ['itinerary-places.js', 'itinerary-routes.js']) vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), ctx);
 const places = ctx.window.ITINERARY_PLACES;
@@ -31,7 +31,7 @@ for (const file of pages) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
   const nav = html.match(/<nav class="nav"[\s\S]*?<\/nav>/)?.[0];
   assert(nav, `${file}: nav`);
-  assert.equal([...nav.matchAll(/<a /g)].length, 7, `${file}: all pages accessible`);
+  assert.equal([...nav.matchAll(/<a /g)].length, pages.length, `${file}: all pages accessible`);
   assert.equal([...nav.matchAll(/aria-current="page"/g)].length, 1, `${file}: active page`);
   for (const page of pages) assert(nav.includes(`href="${page}"`), `${file}: ${page} nav`);
   assert(!/202602188790|6398654|5747085295|t8440304@gmail\.com|expenses\.md|88,881|19,051|12,300/.test(html), `${file}: private booking or ledger content`);
@@ -57,3 +57,15 @@ assert(days[1].stops.some(s => s.id === 'melonpan'));
 assert(days[1].optional.some(s => s.id === 'kodomonokuni'));
 assert(places.find(p => p.id === 'kodomonokuni').note.includes('冬季休園'));
 console.log(`PASS: ${pages.length} pages, ${places.length} places, 8 maps, 3 photos per place, navigation, local links, privacy and stale-content guards.`);
+vm.runInNewContext(fs.readFileSync(path.join(root, 'other-places.js'), 'utf8'), ctx);
+assert.equal(ctx.window.OTHER_PLACES.length, 14);
+const extraHtml = fs.readFileSync(path.join(root, 'other-places.html'), 'utf8');
+assert.equal([...extraHtml.matchAll(/<iframe /g)].length, 14);
+assert.equal([...extraHtml.matchAll(/<img /g)].length, 42);
+for (const place of ctx.window.OTHER_PLACES) {
+  assert.equal(place.photos.length, 3);
+  assert.equal(new Set(place.photos.map(p => p.url)).size, 3);
+  assert(extraHtml.includes(`id="${place.id}"`));
+  assert(place.maps.startsWith('https://www.google.com/maps/'));
+}
+console.log('PASS: 14 wishlist entries, 42 distinct-per-place photos, 14 maps; main itinerary unchanged.');
