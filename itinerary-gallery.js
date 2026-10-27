@@ -21,7 +21,8 @@
     3: [
       ['前段｜室蘭 → 洞爺湖 → 真狩', ['ドーミーイン東室蘭', '洞爺湖温泉', 'レークヒルファーム', 'サイロ展望台', '真狩村']],
       ['後段｜真狩 → 二世谷 → 雪圈滑坡 → 小樽', ['真狩村', '道の駅ニセコビュープラザ', '倶知安駅', 'Hanazono 308', '余市駅', '小樽運河']]
-    ]
+    ],
+    4: [['札幌下午｜送件 → 神社 → 入住 → 取件 → PARCO', ['OMO5 小樽', '白い恋人パーク', '清田稲荷神社', 'PINN-N4E2Ⅱ', '白い恋人パーク', 'ちいかわらんど 札幌パルコ店', 'PINN-N4E2Ⅱ']]]
   };
   const nav = make('nav', 'day-jump-nav');
   nav.setAttribute('aria-label', '跳到行程日期');
@@ -79,6 +80,7 @@
         const source = link(`${index + 1} · ${new URL(photo.source).hostname.replace(/^www\./, '')}`, photo.source);
         source.title = photo.title;
         caption.append(source);
+        caption.append(make('span', '', ` · ${photo.title}`));
         figure.append(caption);
         photos.append(figure);
       });

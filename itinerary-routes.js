@@ -1,4 +1,4 @@
-/* Complete daily stop order, updated 2026-10-08; not winter navigation. */
+/* Daily primary and optional stop order, synced 2026-10-27; not winter navigation. */
 window.ITINERARY_ROUTES = [
   {
     "day": 1,
@@ -169,6 +169,22 @@ window.ITINERARY_ROUTES = [
         "lat": 41.7563066,
         "lon": 140.715673,
         "source": "https://www.openstreetmap.org/way/60577180"
+      },
+      {
+        "id": "mashu",
+        "name": "摩周丸（函館候選）",
+        "lat": 41.7728908,
+        "lon": 140.7217883,
+        "source": "https://www.google.com/maps?ftid=0x5f9ef3a24624a4e9:0x7db15677ff8f39d4",
+        "from": "hotel"
+      },
+      {
+        "id": "nanairo",
+        "name": "道之驛 七彩・七飯（沿線休息備選）",
+        "lat": 41.9259461,
+        "lon": 140.657323,
+        "source": "https://www.google.com/maps?ftid=0x5f9ef8a19ef693c7:0x9efcbdad1677d129",
+        "from": "hotel"
       }
     ],
     "note": "12/13 同一張圖串起取車前步行區、15:00 取車、回飯店拿行李、大沼與室蘭；上半天混合步行與計程車，藍線不是步行逐街導航。 新增停留／確認住宿後，撤除舊道路線形，改為完整停靠順序虛線，非道路導航。",
@@ -315,6 +331,13 @@ window.ITINERARY_ROUTES = [
         "source": "https://www.google.com/maps/search/?api=1&query=ちいかわもぐもぐ本舗+小樽店"
       },
       {
+        "id": "kitty",
+        "name": "OTARU CAFE × HELLO KITTY",
+        "lat": 43.1907622,
+        "lon": 141.0079205,
+        "source": "https://maps.app.goo.gl/PUzpayJxzqyBuZTY6"
+      },
+      {
         "id": "letao",
         "name": "LeTAO 總店",
         "lon": 141.007433,
@@ -336,18 +359,18 @@ window.ITINERARY_ROUTES = [
         "source": "https://hoshinoresorts.com/en/hotels/omo5otaru/access/"
       },
       {
-        "id": "redbrick",
-        "name": "北海道廳舊本廳舍",
-        "lon": 141.3480242,
-        "lat": 43.0639656,
-        "source": "https://www.openstreetmap.org/?mlat=43.0639656&mlon=141.3480242"
+        "id": "memento",
+        "name": "白色戀人公園・留戀寫真館（都鐸屋店）（園區／地圖範圍示意）",
+        "lat": 43.08835,
+        "lon": 141.27068,
+        "source": "https://mapcarta.com/W1227702384"
       },
       {
-        "id": "odori",
-        "name": "大通公園",
-        "lon": 141.3475101,
-        "lat": 43.0599018,
-        "source": "https://www.openstreetmap.org/?mlat=43.0599018&mlon=141.3475101"
+        "id": "kiyota",
+        "name": "清田稻荷神社（園區／地圖範圍示意）",
+        "lat": 42.98954302079841,
+        "lon": 141.46091448626333,
+        "source": "https://kiyotainari.t-act.com/akusesu.html"
       },
       {
         "id": "sapporo",
@@ -357,25 +380,18 @@ window.ITINERARY_ROUTES = [
         "source": "https://pinn-hotel.com/lineup/pinn-test3/"
       },
       {
+        "id": "memento",
+        "name": "白色戀人公園・留戀寫真館（都鐸屋店）（園區／地圖範圍示意）",
+        "lat": 43.08835,
+        "lon": 141.27068,
+        "source": "https://mapcarta.com/W1227702384"
+      },
+      {
         "id": "chiikawa-sapporo",
         "name": "吉伊卡哇 ちいかわらんど 札幌 PARCO 店",
         "lon": 141.3531554,
         "lat": 43.0586301,
         "source": "https://www.google.com/maps/search/?api=1&query=ちいかわらんど+札幌パルコ店"
-      },
-      {
-        "id": "tanuki",
-        "name": "狸小路",
-        "lon": 141.352677,
-        "lat": 43.0572386,
-        "source": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E7%8B%B8%E5%B0%8F%E8%B7%AF"
-      },
-      {
-        "id": "tnoc",
-        "name": "TNOC THE STORE SAPPORO T4",
-        "lon": 141.3521718,
-        "lat": 43.0573421,
-        "source": "https://www.google.com/maps/search/?api=1&query=TNOC%20THE%20STORE%20SAPPORO%20T4"
       },
       {
         "id": "sapporo",
@@ -405,7 +421,7 @@ window.ITINERARY_ROUTES = [
       {
         "id": "hanamaru",
         "name": "根室花丸 COCONO SUSUKINO店",
-        "from": "tnoc",
+        "from": "chiikawa-sapporo",
         "lon": 141.3526245,
         "lat": 43.055129,
         "source": "https://www.openstreetmap.org/?mlat=43.055129&mlon=141.3526245"
@@ -413,13 +429,93 @@ window.ITINERARY_ROUTES = [
       {
         "id": "hachikyo",
         "name": "海味はちきょう別亭おやじ",
-        "from": "tnoc",
+        "from": "chiikawa-sapporo",
         "lon": 141.3538925,
         "lat": 43.0564573,
         "source": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%91%B3%E3%81%AF%E3%81%A1%E3%81%8D%E3%82%87%E3%81%86%20%E5%88%A5%E4%BA%AD%E3%81%8A%E3%82%84%E3%81%98"
+      },
+      {
+        "id": "redbrick",
+        "name": "北海道廳舊本廳舍",
+        "lon": 141.3480242,
+        "lat": 43.0639656,
+        "source": "https://www.openstreetmap.org/?mlat=43.0639656&mlon=141.3480242",
+        "from": "sapporo"
+      },
+      {
+        "id": "odori",
+        "name": "大通公園",
+        "lon": 141.3475101,
+        "lat": 43.0599018,
+        "source": "https://www.openstreetmap.org/?mlat=43.0599018&mlon=141.3475101",
+        "from": "sapporo"
+      },
+      {
+        "id": "tanuki",
+        "name": "狸小路",
+        "lon": 141.352677,
+        "lat": 43.0572386,
+        "source": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E7%8B%B8%E5%B0%8F%E8%B7%AF",
+        "from": "sapporo"
+      },
+      {
+        "id": "tnoc",
+        "name": "TNOC THE STORE SAPPORO T4",
+        "lon": 141.3521718,
+        "lat": 43.0573421,
+        "source": "https://www.google.com/maps/search/?api=1&query=TNOC%20THE%20STORE%20SAPPORO%20T4",
+        "from": "sapporo"
+      },
+      {
+        "id": "nagare",
+        "name": "喫茶 流れ星（夜咖啡建議）",
+        "lat": 43.057633264539,
+        "lon": 141.36156192777,
+        "source": "https://map.yahoo.co.jp/v3/place/NKR3xAWN20w",
+        "from": "sapporo"
+      },
+      {
+        "id": "butter",
+        "name": "THE BUTTER（未排時段候選）",
+        "lat": 43.0639332,
+        "lon": 141.3506355,
+        "source": "https://maps.app.goo.gl/FoMKg3QAV5WixUWz8",
+        "from": "sapporo"
+      },
+      {
+        "id": "omaru",
+        "name": "おまる商店（晚餐候選）",
+        "lat": 43.053834854539,
+        "lon": 141.35483894774,
+        "source": "https://map.yahoo.co.jp/v3/place/S5_AdWMcdGk",
+        "from": "sapporo"
+      },
+      {
+        "id": "shinko",
+        "name": "雷除志ん古（大福候選）",
+        "lat": 43.184654,
+        "lon": 141.007761,
+        "source": "https://www.google.com/maps?ftid=0x5f0ae05eff7a6293:0x8a051182be6be6e7",
+        "from": "canal"
+      },
+      {
+        "id": "okuno",
+        "name": "Okuno’s／奥野商店（昭和小物候選）",
+        "lat": 43.1953124,
+        "lon": 141.0046346,
+        "source": "https://www.google.com/maps?ftid=0x5f0ae112aafaf76b:0x9bbd5affa31a615f",
+        "from": "canal"
+      },
+      {
+        "id": "aquarium",
+        "name": "小樽水族館（企鵝散步備案）",
+        "lat": 43.23694298,
+        "lon": 141.0119214,
+        "source": "https://map.yahoo.co.jp/v3/place/-9qsz7owgFg",
+        "from": "canal"
       }
     ],
-    "note": "12/15 小樽運河 → 09:30吉伊卡哇小樽店 → 堺町甜點 → 札幌市區 → 16:00吉伊卡哇札幌PARCO店 → 狸小路／TNOC → 札幌住宿。市區步行、跨城開車，藍色虛線僅為全部停靠點的順序示意，不是道路導航；新增店家後撤除舊道路線形避免誤導。花窗玻璃館、藻岩山皆為時間允許才加入，晚餐擇一。",
+    "note": "10/27新版：小樽運河→吉伊卡哇→Kitty→甜點短逛→OMO5取行李→白色戀人公園送件→清田神社→PINN入住→白色戀人公園取件→PARCO吉伊卡哇→PINN。送件與取件是同一地點，編號保留兩次；主線編號不是活動完成保證。藍色虛線為完整停靠順序，非可行駛道路或即時導航；部分位置為園區／官方嵌入地圖範圍示意，入口停車以Google Maps與現場確認。水族館、咖啡與其他逛街橘色皆備選，不與主線全部疊加。",
     "geometry": null
   },
   {
@@ -431,6 +527,13 @@ window.ITINERARY_ROUTES = [
         "lat": 43.06717,
         "lon": 141.35765,
         "source": "https://pinn-hotel.com/lineup/pinn-test3/"
+      },
+      {
+        "id": "moere",
+        "name": "莫埃來沼公園・玻璃金字塔商店（園區／地圖範圍示意）",
+        "lat": 43.12234565244494,
+        "lon": 141.42139616750075,
+        "source": "https://moerenumapark.jp/access/"
       },
       {
         "id": "cambia",
@@ -515,7 +618,7 @@ window.ITINERARY_ROUTES = [
         "source": "https://www.openstreetmap.org/?mlat=43.4934902&mlon=142.6140976"
       }
     ],
-    "note": "12/16 カンビア → 唯我獨尊的順序保留；白樺街道從白金 Biruke 接白鬚瀑布。聖誕樹點位只是景點位置，不代表樹前可停車，參觀／接駁待公告。 新增停留／確認住宿後，撤除舊道路線形，改為完整停靠順序虛線，非道路導航。",
+    "note": "10/27新版：PINN→莫埃來沼公園（09:00–09:45商店）→三笠カンビア→唯我獨尊→精靈露台→聖誕樹→白樺街道／白鬚瀑布→旭川。莫埃來為官方地圖範圍位置示意，非商店入口／冬季停車保證。各時段是目標；美唄摩托為替代備案，不與早晨購物硬塞。藍色虛線為順序示意非道路；聖誕樹參觀／接駁待確認。",
     "geometry": null
   },
   {
@@ -1220,6 +1323,22 @@ window.ITINERARY_ROUTES = [
         "lon": 140.7570326,
         "lat": 41.7967999,
         "source": "https://www.openstreetmap.org/?mlat=41.7967999&mlon=140.7570326"
+      },
+      {
+        "id": "mashu",
+        "name": "摩周丸（函館候選）",
+        "lat": 41.7728908,
+        "lon": 140.7217883,
+        "source": "https://www.google.com/maps?ftid=0x5f9ef3a24624a4e9:0x7db15677ff8f39d4",
+        "from": "lunch"
+      },
+      {
+        "id": "nanairo",
+        "name": "道之驛 七彩・七飯（沿線休息備選）",
+        "lat": 41.9259461,
+        "lon": 140.657323,
+        "source": "https://www.google.com/maps?ftid=0x5f9ef8a19ef693c7:0x9efcbdad1677d129",
+        "from": "lunch"
       }
     ],
     "note": "12/19 06:30 往函館，午餐後加油、14:30 左右到店、15:00 還車，再去機場。大沼與五稜郭是有時間才選的加碼，不把兩處都當固定行程。",

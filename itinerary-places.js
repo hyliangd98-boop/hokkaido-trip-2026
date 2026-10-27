@@ -1,4 +1,4 @@
-/* Real place reference photos; external sources retain ownership. Updated 2026-10-06. */
+/* Real place reference photos; sources retain ownership. Synced 2026-10-27. */
 window.ITINERARY_PLACES = [
   {
     "id": "melonpan",
@@ -108,33 +108,33 @@ window.ITINERARY_PLACES = [
       }
     ]
   },
-{
-  "id": "koyamame",
-  "name": "koyamame roastery（長沼町・一樓包場咖啡館）",
-  "q": "koyamame roastery 長沼",
-  "days": [
-    7
-  ],
-  "note": "Yabi 想去｜暫掛12/18回程待調整，非固定停留、未預約。長沼町馬追丘陵，丘の上珈琲1F；一次一組、最多5人，90分鐘每人¥1,000＋飲食另計。官方場次11:00–12:30／13:00–14:30／15:00–16:30；前一天以前線上預約，當天僅現場有空位才可能受理。先到2F受付、點餐付款，勿自行入內見學。2F官方週三休，12/16先避開；1F當日開放仍以預約頁確認。若12/18選15:00場，需重排十勝停留及登別抵達／飯店晚餐，不能沿用原16:30–18:00到達估算。冬季臨休與場次待確認。",
-  "maps": "https://goo.gl/maps/RdkHkToARGoGVkce6",
-  "photos": [
-    {
-      "source": "https://www.koyamameroastery.com/",
-      "url": "https://www.koyamameroastery.com/asset/img/top/img_top_01_02_pc.jpg",
-      "title": "koyamame roastery 官方空間照片 1"
-    },
-    {
-      "source": "https://www.koyamameroastery.com/",
-      "url": "https://www.koyamameroastery.com/asset/img/top/img_top_02_pc.jpg",
-      "title": "koyamame roastery 官方空間照片 2"
-    },
-    {
-      "source": "https://www.koyamameroastery.com/",
-      "url": "https://www.koyamameroastery.com/asset/img/top/img_top_03_pc.jpg",
-      "title": "koyamame roastery 官方空間照片 3"
-    }
-  ]
-},
+  {
+    "id": "koyamame",
+    "name": "koyamame roastery（長沼町・一樓包場咖啡館）",
+    "q": "koyamame roastery 長沼",
+    "days": [
+      7
+    ],
+    "note": "Yabi 想去｜暫掛12/18回程待調整，非固定停留、未預約。長沼町馬追丘陵，丘の上珈琲1F；一次一組、最多5人，90分鐘每人¥1,000＋飲食另計。官方場次11:00–12:30／13:00–14:30／15:00–16:30；前一天以前線上預約，當天僅現場有空位才可能受理。先到2F受付、點餐付款，勿自行入內見學。2F官方週三休，12/16先避開；1F當日開放仍以預約頁確認。若12/18選15:00場，需重排十勝停留及登別抵達／飯店晚餐，不能沿用原16:30–18:00到達估算。冬季臨休與場次待確認。 10/27同步：10/19台灣09:00曾確認12/18三場開放並通知，追蹤已完成停止。這是歷史查詢，非目前空位保證；未預約，仍為候選。",
+    "maps": "https://goo.gl/maps/RdkHkToARGoGVkce6",
+    "photos": [
+      {
+        "source": "https://www.koyamameroastery.com/",
+        "url": "https://www.koyamameroastery.com/asset/img/top/img_top_01_02_pc.jpg",
+        "title": "koyamame roastery 官方空間照片 1"
+      },
+      {
+        "source": "https://www.koyamameroastery.com/",
+        "url": "https://www.koyamameroastery.com/asset/img/top/img_top_02_pc.jpg",
+        "title": "koyamame roastery 官方空間照片 2"
+      },
+      {
+        "source": "https://www.koyamameroastery.com/",
+        "url": "https://www.koyamameroastery.com/asset/img/top/img_top_03_pc.jpg",
+        "title": "koyamame roastery 官方空間照片 3"
+      }
+    ]
+  },
   {
     "id": "chiikawa-otaru",
     "name": "吉伊卡哇 もぐもぐ本舗 小樽店",
@@ -169,7 +169,7 @@ window.ITINERARY_PLACES = [
     "days": [
       4
     ],
-    "note": "12/15 16:00–17:00 主線逛店；札幌PARCO本館B2F（南1條西3-3），現行10:00–20:00。大通公園後、狸小路／TNOC前步行串連；新品日或人潮多時可能限制入場，出發前查官方公告。商品與限定款庫存不保證。",
+    "note": "12/15 18:15–19:15 主線逛店；札幌PARCO本館B2F（南1條西3-3），現行10:00–20:00。大通公園後、狸小路／TNOC前步行串連；新品日或人潮多時可能限制入場，出發前查官方公告。商品與限定款庫存不保證。 最新主線：12/15目標18:15–19:15，已由16時順延；不保證入場或商品庫存。",
     "maps": "https://www.google.com/maps/search/?api=1&query=%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E3%82%89%E3%82%93%E3%81%A9%20%E6%9C%AD%E5%B9%8C%E3%83%91%E3%83%AB%E3%82%B3%E5%BA%97",
     "photos": [
       {
@@ -852,7 +852,7 @@ window.ITINERARY_PLACES = [
     "days": [
       4
     ],
-    "note": "",
+    "note": "非固定主線｜12/15新增冰箱貼送取件與清田神社後，僅有餘裕、實際開門且不影響主線才逛。",
     "maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B5%B7%E9%81%93%E5%BA%81%E6%97%A7%E6%9C%AC%E5%BA%81%E8%88%8E",
     "photos": [
       {
@@ -879,7 +879,7 @@ window.ITINERARY_PLACES = [
     "days": [
       4
     ],
-    "note": "",
+    "note": "非固定主線｜12/15新增冰箱貼送取件與清田神社後，僅有餘裕、實際開門且不影響主線才逛。",
     "maps": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E5%A4%A7%E9%80%9A%E5%85%AC%E5%9C%92%20%E5%86%AC",
     "photos": [
       {
@@ -907,7 +907,7 @@ window.ITINERARY_PLACES = [
     "days": [
       4
     ],
-    "note": "",
+    "note": "非固定主線｜12/15新增冰箱貼送取件與清田神社後，僅有餘裕、實際開門且不影響主線才逛。",
     "maps": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E7%8B%B8%E5%B0%8F%E8%B7%AF",
     "photos": [
       {
@@ -935,7 +935,7 @@ window.ITINERARY_PLACES = [
     "days": [
       4
     ],
-    "note": "",
+    "note": "非固定主線｜12/15新增冰箱貼送取件與清田神社後，僅有餘裕、實際開門且不影響主線才逛。",
     "maps": "https://www.google.com/maps/search/?api=1&query=TNOC%20THE%20STORE%20SAPPORO%20T4",
     "photos": [
       {
@@ -962,7 +962,7 @@ window.ITINERARY_PLACES = [
     "days": [
       4
     ],
-    "note": "與市中心逛街二選一",
+    "note": "非固定主線｜12/15新增冰箱貼送取件與清田神社後，僅有餘裕、實際開門且不影響主線才逛。與市中心逛街二選一",
     "maps": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E8%97%BB%E5%B2%A9%E5%B1%B1%20%E5%A4%9C%E6%99%AF",
     "photos": [
       {
@@ -1045,7 +1045,7 @@ window.ITINERARY_PLACES = [
     "days": [
       5
     ],
-    "note": "備選・未預約",
+    "note": "備選・未預約 莫埃來沼公園09時商店現為主線，兩者不能同時硬塞；採摩托須另外取捨重排。",
     "maps": "https://www.google.com/maps/search/?api=1&query=Alpen%20Snowland%20Bibai%20snowmobile",
     "photos": [
       {
@@ -1532,6 +1532,332 @@ window.ITINERARY_PLACES = [
         "source": "https://livejapan.com/zh-tw/in-hokkaido/in-pref-hokkaido/in-hakodate/spot-lj0007703/",
         "url": "https://rimage.gnst.jp/livejapan.com/public/img/spot/lj/00/07/lj0007703/lj0007703_5b160ed8a9edb_main.jpg?20260204151211=&q=80",
         "title": "五稜郭公園 (函館|古城遺址) - LIVE JAPAN (日本旅遊 ‧文化體驗導覽)"
+      }
+    ]
+  },
+  {
+    "id": "kitty",
+    "name": "OTARU CAFE × HELLO KITTY",
+    "days": [
+      4
+    ],
+    "q": "OTARU CAFE HELLO KITTY 小樽市住吉町1-6",
+    "note": "主線｜12/15 10:30–11:00逛1F，找小樽限定和服Kitty；不排2F用餐。住吉町1-6，非入船舊址。1F營業參考09:15–17:45，12月開門與商品庫存待確認。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=OTARU%20CAFE%20HELLO%20KITTY%20%E5%B0%8F%E6%A8%BD%E5%B8%82%E4%BD%8F%E5%90%89%E7%94%BA1-6",
+    "photos": [
+      {
+        "source": "https://www.bubu-jp.com/archives/55356",
+        "url": "https://www.bubu-jp.com/wp-content/uploads/2026/09/7c7973b833acd20933d8f0d7b81dd01f-e1788649548748.jpg",
+        "title": "2026年來源實景，商品非庫存保證 1"
+      },
+      {
+        "source": "https://www.bubu-jp.com/archives/55356",
+        "url": "https://www.bubu-jp.com/wp-content/uploads/2026/09/cf4388276948ae90f82e56cfc284ae9c-1024x769.jpg",
+        "title": "2026年來源實景，商品非庫存保證 2"
+      },
+      {
+        "source": "https://www.bubu-jp.com/archives/55356",
+        "url": "https://www.bubu-jp.com/wp-content/uploads/2026/09/44cebb933c881499e83e09433dd559f0-1024x769.jpg",
+        "title": "2026年來源實景，商品非庫存保證 3"
+      }
+    ]
+  },
+  {
+    "id": "kiyota",
+    "name": "清田稻荷神社",
+    "days": [
+      4
+    ],
+    "q": "清田稲荷神社 札幌市里塚3条1丁目17",
+    "note": "主線｜12/15目標14:00–14:30參拜、貓咪御守／御朱印。社務10–15時，週日、一與假日休務；15時後不過鳥居登階。冬季階梯防滑。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E7%94%B0%E7%A8%B2%E8%8D%B7%E7%A5%9E%E7%A4%BE%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E9%87%8C%E5%A1%9A3%E6%9D%A11%E4%B8%81%E7%9B%AE17",
+    "photos": [
+      {
+        "source": "https://kiyotainari.t-act.com/",
+        "url": "https://kiyotainari.t-act.com/images/main_1.jpg",
+        "title": "官方神社／授與品參考，非現貨保證 1"
+      },
+      {
+        "source": "https://kiyotainari.t-act.com/",
+        "url": "https://kiyotainari.t-act.com/images/jyuyo_im_omamori.jpg",
+        "title": "官方神社／授與品參考，非現貨保證 2"
+      },
+      {
+        "source": "https://kiyotainari.t-act.com/",
+        "url": "https://kiyotainari.t-act.com/images/jyuyo_im_nikykyu.jpg",
+        "title": "官方神社／授與品參考，非現貨保證 3"
+      }
+    ]
+  },
+  {
+    "id": "memento",
+    "name": "白色戀人公園・留戀寫真館（都鐸屋店）",
+    "days": [
+      4
+    ],
+    "q": "白い恋人パーク",
+    "note": "主線｜12/15 12:45–13:15送件、16:45–17:30返回取冰箱貼；都鐸屋1F免費區。10–18時、受理至17時；製作30分鐘但交付可能1–4小時。限有權使用的照片，不接受插畫／角色／名人／品牌標誌與USB等媒體。到店先確認能否當日交付；未下單、未付款，不假定寄送。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E3%81%84%E6%81%8B%E4%BA%BA%E3%83%91%E3%83%BC%E3%82%AF",
+    "photos": [
+      {
+        "source": "https://www.shiroikoibitopark.jp/shop/mement-tudor/",
+        "url": "https://www.shiroikoibitopark.jp/uploads/3bbd99972a2fa7e109f73eb29cc6ba59.jpg",
+        "title": "官方寫真館與商品參考 1"
+      },
+      {
+        "source": "https://www.shiroikoibitopark.jp/shop/mement-tudor/",
+        "url": "https://www.shiroikoibitopark.jp/uploads/0d353d94ab294a60e07fb5fc6f10e915.jpg",
+        "title": "官方寫真館與商品參考 2"
+      },
+      {
+        "source": "https://www.shiroikoibitopark.jp/zh-hant/course/course-friends.html",
+        "url": "https://www.shiroikoibitopark.jp/assets/images/course/friends/06_ph.jpg",
+        "title": "官方客製紀念罐體驗參考；非冰箱貼成品 1"
+      }
+    ]
+  },
+  {
+    "id": "moere",
+    "name": "莫埃來沼公園・玻璃金字塔商店",
+    "days": [
+      5
+    ],
+    "q": "モエレ沼公園",
+    "note": "主線｜12/16目標07:15短走雪景，早餐休息後09:00–09:45逛1F商店買野口勇相關商品。取消08:15離開舊方案；不保證AKARI指定款現貨。冬季東口P2，商店參考09–17時週一休，公告再確認。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E3%83%A2%E3%82%A8%E3%83%AC%E6%B2%BC%E5%85%AC%E5%9C%92",
+    "photos": [
+      {
+        "source": "https://moerenumapark.jp/pyramid/",
+        "url": "https://moerenumapark.jp/control-panel/wp-content/uploads/1970/01/f8.jpg",
+        "title": "官方玻璃金字塔外觀／室內，非當日雪況 1"
+      },
+      {
+        "source": "https://moerenumapark.jp/pyramid/",
+        "url": "https://moerenumapark.jp/control-panel/wp-content/uploads/1970/01/hidamari-s.jpg",
+        "title": "官方玻璃金字塔外觀／室內，非當日雪況 2"
+      },
+      {
+        "source": "https://moerenumapark.jp/pyramid/",
+        "url": "https://moerenumapark.jp/control-panel/wp-content/uploads/2014/05/img011_11.jpg",
+        "title": "官方玻璃金字塔外觀／室內，非當日雪況 3"
+      }
+    ]
+  },
+  {
+    "id": "nagare",
+    "name": "喫茶 流れ星（夜咖啡建議）",
+    "days": [
+      4
+    ],
+    "q": "喫茶 流れ星 札幌市南4条東3丁目19",
+    "note": "建議非必達｜12/15晚餐後20:30–21:15，咖啡甜點、老建築。參考12–18／20–23時，LO各提前30分鐘；週三日休另不定休。12月晚間營業再確認，疲勞／前段延誤就略過。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E5%96%AB%E8%8C%B6%20%E6%B5%81%E3%82%8C%E6%98%9F%20%E6%9C%AD%E5%B9%8C%E5%B8%82%E5%8D%974%E6%9D%A1%E6%9D%B13%E4%B8%81%E7%9B%AE19",
+    "photos": [
+      {
+        "source": "https://moula.jp/articles/life/entry-7151.html",
+        "url": "https://p1-43e790c9.imageflux.jp/c!/w=840,h=630,ir=auto,a=0,u=0,f=webp,q=75/media/005/202506/8.jpg?v=20250601024116",
+        "title": "2025年探店實景 1"
+      },
+      {
+        "source": "https://moula.jp/articles/life/entry-7151.html",
+        "url": "https://p1-43e790c9.imageflux.jp/c!/w=840,h=630,ir=auto,a=0,u=0,f=webp,q=75/media/005/202506/9.jpg?v=20250601024248",
+        "title": "2025年探店實景 2"
+      },
+      {
+        "source": "https://moula.jp/articles/life/entry-7151.html",
+        "url": "https://p1-43e790c9.imageflux.jp/c!/w=840,h=630,ir=auto,a=0,u=0,f=webp,q=75/media/005/202506/2.jpg?v=20250601021759",
+        "title": "2025年探店實景 3"
+      }
+    ]
+  },
+  {
+    "id": "butter",
+    "name": "THE BUTTER（未排時段候選）",
+    "days": [
+      4
+    ],
+    "q": "THE BUTTER 札幌 赤れんがテラス",
+    "note": "候選未排程｜雪印奶油咖啡店，赤れんがテラス1F，非バターのいとこ。現做奶油、吐司、飲品；官網參考08–18時LO17時。12/15週二休業可能性與12月公告待確認，不替換主線。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=THE%20BUTTER%20%E6%9C%AD%E5%B9%8C%20%E8%B5%A4%E3%82%8C%E3%82%93%E3%81%8C%E3%83%86%E3%83%A9%E3%82%B9",
+    "photos": [
+      {
+        "source": "https://the-butter.com/",
+        "url": "https://the-butter.com/assets/images/hero/img_hero_01_pc.webp",
+        "title": "官方店舖／奶油餐點形象參考，非當日供應保證 1"
+      },
+      {
+        "source": "https://the-butter.com/",
+        "url": "https://the-butter.com/assets/images/hero/img_hero_02_pc.webp",
+        "title": "官方店舖／奶油餐點形象參考，非當日供應保證 2"
+      },
+      {
+        "source": "https://the-butter.com/",
+        "url": "https://the-butter.com/assets/images/hero/img_hero_03_pc.webp",
+        "title": "官方店舖／奶油餐點形象參考，非當日供應保證 3"
+      }
+    ]
+  },
+  {
+    "id": "omaru",
+    "name": "おまる商店（晚餐候選）",
+    "days": [
+      4
+    ],
+    "q": "おまる商店 札幌",
+    "note": "候選未訂位｜生羊肉成吉思汗與燒肉。焼肉EAST百名店2025，不是獨立成吉思汗獎項。有馬ビル2F；吸菸店、無停車。12月營業、空位與價格出發前核對。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%BE%E3%82%8B%E5%95%86%E5%BA%97%20%E6%9C%AD%E5%B9%8C",
+    "photos": [
+      {
+        "source": "https://ameblo.jp/ajmd2ajgjo/entry-12862838507.html",
+        "url": "https://stat.ameba.jp/user_images/20240807/20/ajmd2ajgjo/90/9d/j/o1080072015472157516.jpg?caw=800",
+        "title": "2024年おまる商店探店照片，非現行菜單 1"
+      },
+      {
+        "source": "https://ameblo.jp/ajmd2ajgjo/entry-12862838507.html",
+        "url": "https://stat.ameba.jp/user_images/20240807/20/ajmd2ajgjo/75/dc/j/o1080094515472164620.jpg?caw=800",
+        "title": "2024年おまる商店探店照片，非現行菜單 2"
+      },
+      {
+        "source": "https://ameblo.jp/ajmd2ajgjo/entry-12862838507.html",
+        "url": "https://stat.ameba.jp/user_images/20240807/20/ajmd2ajgjo/7a/96/j/o1080122615472164629.jpg?caw=800",
+        "title": "2024年おまる商店探店照片，非現行菜單 3"
+      }
+    ]
+  },
+  {
+    "id": "shinko",
+    "name": "雷除志ん古（大福候選）",
+    "days": [
+      4
+    ],
+    "q": "雷除志ん古 小樽",
+    "note": "Henry指定、雙人徐推薦｜若松1-5-13，鹽味豆沙大福餅菓子、外帶。售完即止，可能上午已售罄；尚未排固定時段，不擠壓吉伊卡哇與Kitty。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%B7%E9%99%A4%E5%BF%97%E3%82%93%E5%8F%A4%20%E5%B0%8F%E6%A8%BD",
+    "photos": [
+      {
+        "source": "https://otaru-sweetsfesta.jp/sweets/otaru007/",
+        "url": "https://otaru-sweetsfesta.jp/wp-content/uploads/elementor/thumbs/c51545e845a10701fe6829817b2ac3da-rc0ivty4ymsgvpj4ubrpzpl1enfdaxodqmtss6elzw.jpeg",
+        "title": "活動官網商品／店面參考 1"
+      },
+      {
+        "source": "https://otaru-sweetsfesta.jp/sweets/otaru007/",
+        "url": "https://otaru-sweetsfesta.jp/wp-content/uploads/2024/06/1a44c73d34d27854def863a76b65ee4f.jpg",
+        "title": "活動官網商品／店面參考 2"
+      },
+      {
+        "source": "https://sodane.hokkaido.jp/news/202501221200005052.html",
+        "url": "https://sodane.hokkaido.jp/photo/20250122/f85e1585aca50d044a378976c02ab7683b5b7911.jpg",
+        "title": "2025年雷除志ん古報導實景 1"
+      }
+    ]
+  },
+  {
+    "id": "okuno",
+    "name": "Okuno’s／奥野商店（昭和小物候選）",
+    "days": [
+      4
+    ],
+    "q": "Okuno's 小樽市堺町3-22",
+    "note": "Henry指定候選｜昭和風生活道具、金物廚具、籃子器皿、作家作品；新舊混合，非純服飾店，也不全是二手。堺町3-22，未排固定停留，12月營業待確認。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Okuno's%20%E5%B0%8F%E6%A8%BD%E5%B8%82%E5%A0%BA%E7%94%BA3-22",
+    "photos": [
+      {
+        "source": "https://otaru.gr.jp/tourist/okunosyoutenopun2020-2",
+        "url": "https://otaru.gr.jp/wp-content/uploads/2020/03/IMG_2624.jpg",
+        "title": "2020年觀光協會開店報導，非現貨保證 1"
+      },
+      {
+        "source": "https://otaru.gr.jp/tourist/okunosyoutenopun2020-2",
+        "url": "https://otaru.gr.jp/wp-content/uploads/2020/03/IMG_2623.jpg",
+        "title": "2020年觀光協會開店報導，非現貨保證 2"
+      },
+      {
+        "source": "https://otaru.gr.jp/tourist/okunosyoutenopun2020-2",
+        "url": "https://otaru.gr.jp/wp-content/uploads/2020/03/IMG_2626.jpg",
+        "title": "2020年觀光協會開店報導，非現貨保證 3"
+      }
+    ]
+  },
+  {
+    "id": "mashu",
+    "name": "摩周丸（函館候選）",
+    "days": [
+      2,
+      8
+    ],
+    "q": "函館市青函連絡船記念館摩周丸",
+    "note": "候選非固定停留｜若松町12番地先，保存船、操舵室、無線通信室與航線歷史。11–3月09–17時，16時截止入館；成人¥500。積雪／結冰／強風可能封閉甲板，惡劣天氣臨休。12/13緊湊、12/19還車優先，不自動加時段。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E5%87%BD%E9%A4%A8%E5%B8%82%E9%9D%92%E5%87%BD%E9%80%A3%E7%B5%A1%E8%88%B9%E8%A8%98%E5%BF%B5%E9%A4%A8%E6%91%A9%E5%91%A8%E4%B8%B8",
+    "photos": [
+      {
+        "source": "https://floatingship.org/member/hakodate/",
+        "url": "https://floatingship.org/wp/wp-content/uploads/2020/06/bg_02_02.jpg",
+        "title": "日本浮動船協會摩周丸實景 1"
+      },
+      {
+        "source": "https://floatingship.org/member/hakodate/",
+        "url": "https://floatingship.org/wp/wp-content/uploads/2020/06/bg_02_03.jpg",
+        "title": "日本浮動船協會摩周丸實景 2"
+      },
+      {
+        "source": "https://floatingship.org/member/hakodate/",
+        "url": "https://floatingship.org/wp/wp-content/uploads/2020/06/bg_02_04.jpg",
+        "title": "日本浮動船協會摩周丸實景 3"
+      }
+    ]
+  },
+  {
+    "id": "nanairo",
+    "name": "道之驛 七彩・七飯（沿線休息備選）",
+    "days": [
+      2,
+      8
+    ],
+    "q": "道の駅 なないろ ななえ",
+    "note": "候選非固定停留｜峠下380-2。農產、蘋果加工品、道南伴手禮，輕食與Guarana霜淇淋依當日。參考09–18時，各餐飲設施另異，12月再核對；不是高速公路內休息站，需確認交流道與繞行。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E3%81%AE%E9%A7%85%20%E3%81%AA%E3%81%AA%E3%81%84%E3%82%8D%20%E3%81%AA%E3%81%AA%E3%81%88",
+    "photos": [
+      {
+        "source": "https://nanairo-nanae.jp/",
+        "url": "https://nanairo-nanae.jp/wp-content/themes/ultrabootstrap/slider/slide-001.jpg",
+        "title": "官方道之驛／農產／輕食參考 1"
+      },
+      {
+        "source": "https://nanairo-nanae.jp/",
+        "url": "https://nanairo-nanae.jp/wp-content/themes/ultrabootstrap/slider/slider_product_001.jpg",
+        "title": "官方農產加工品參考，非當日庫存"
+      },
+      {
+        "source": "https://nanairo-nanae.jp/",
+        "url": "https://nanairo-nanae.jp/wp-content/themes/ultrabootstrap/slider/slide-003.jpg",
+        "title": "官方道之驛／農產／輕食參考 3"
+      }
+    ]
+  },
+  {
+    "id": "aquarium",
+    "name": "小樽水族館（企鵝散步備案）",
+    "days": [
+      4
+    ],
+    "q": "おたる水族館",
+    "note": "備案非主線｜保留12/17旭山動物園。今季2026/12/12–2027/2/23冬季10–16時、入館至15:30；巴布亞企鵝散步11:30／12:40／13:30／14:40、各約10分鐘。成人¥1,300、冬季停車免費。祝津3-303；12/15採用須重排小樽購物與札幌下午，非無縫加碼。冬季海獸公園與遊樂園關閉，活動依當日公告。",
+    "maps": "https://www.google.com/maps/search/?api=1&query=%E3%81%8A%E3%81%9F%E3%82%8B%E6%B0%B4%E6%97%8F%E9%A4%A8",
+    "photos": [
+      {
+        "source": "https://otaru-aq.jp/choineta/birds/post-28933",
+        "url": "https://otaru-aq.jp/wordpress/wp-content/uploads/2023/12/DSCN4213-300x225.jpg",
+        "title": "2023年官方企鵝散步實景，非出遊日雪況 1"
+      },
+      {
+        "source": "https://otaru-aq.jp/choineta/birds/post-28933",
+        "url": "https://otaru-aq.jp/wordpress/wp-content/uploads/2023/12/DSCN4214-300x225.jpg",
+        "title": "2023年官方企鵝散步實景，非出遊日雪況 2"
+      },
+      {
+        "source": "https://otaru-aq.jp/choineta/birds/post-28933",
+        "url": "https://otaru-aq.jp/wordpress/wp-content/uploads/2023/12/DSCN4216-300x225.jpg",
+        "title": "2023年官方企鵝散步實景，非出遊日雪況 3"
       }
     ]
   }

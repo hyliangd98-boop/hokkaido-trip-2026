@@ -56,6 +56,16 @@ assert(!itinerary.includes('僅 12/12 飯店已提供訂單'));
 assert(days[1].stops.some(s => s.id === 'melonpan'));
 assert(days[1].optional.some(s => s.id === 'kodomonokuni'));
 assert(places.find(p => p.id === 'kodomonokuni').note.includes('冬季休園'));
+assert(days[3].stops.some(s => s.id === 'kitty'));
+assert(days[3].stops.some(s => s.id === 'kiyota'));
+assert.equal(days[3].stops.filter(s => s.id === 'memento').length, 2, 'send and collect both retained');
+assert(days[3].optional.some(s => s.id === 'aquarium'));
+assert(!days[3].stops.some(s => s.id === 'aquarium'));
+assert(days[4].stops.some(s => s.id === 'moere'));
+assert(days[5].stops.some(s => s.id === 'zoo'), 'Asahiyama retained');
+assert(itinerary.includes('09:00–09:45') && itinerary.includes('18:15–19:15'));
+assert(!itinerary.includes('已設定每天台灣時間09:00檢查'));
+assert(itinerary.includes('itinerary-routes.js?v=20261027'), 'route cache invalidation');
 console.log(`PASS: ${pages.length} pages, ${places.length} places, 8 maps, 3 photos per place, navigation, local links, privacy and stale-content guards.`);
 vm.runInNewContext(fs.readFileSync(path.join(root, 'other-places.js'), 'utf8'), ctx);
 assert.equal(ctx.window.OTHER_PLACES.length, 14);
@@ -68,4 +78,4 @@ for (const place of ctx.window.OTHER_PLACES) {
   assert(extraHtml.includes(`id="${place.id}"`));
   assert(place.maps.startsWith('https://www.google.com/maps/'));
 }
-console.log('PASS: 14 wishlist entries, 42 distinct-per-place photos, 14 maps; main itinerary unchanged.');
+console.log('PASS: 14 extra wishlist entries, 42 distinct-per-place photos, 14 maps; Oct27 mainline/optional and reservation-status guards.');
