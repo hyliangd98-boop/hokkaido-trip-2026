@@ -1622,9 +1622,9 @@ window.ITINERARY_PLACES = [
     "days": [
       5
     ],
-    "q": "モエレ沼公園",
+    "q": "Moerenuma Park",
     "note": "主線｜12/16目標07:15短走雪景，早餐休息後09:00–09:45逛1F商店買野口勇相關商品。取消08:15離開舊方案；不保證AKARI指定款現貨。冬季東口P2，商店參考09–17時週一休，公告再確認。",
-    "maps": "https://www.google.com/maps/search/?api=1&query=%E3%83%A2%E3%82%A8%E3%83%AC%E6%B2%BC%E5%85%AC%E5%9C%92",
+    "maps": "https://www.google.com/maps/search/Moerenuma+Park/",
     "photos": [
       {
         "source": "https://moerenumapark.jp/pyramid/",
