@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#244d45">
+  <meta name="description" content="北海道冬日旅程・12/15行程新版試閱。時間軸、照片與地圖同步，原行程不變。">
+  <title>北行日記｜12/15 新版試閱</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="preview.css?v=20261029p1">
+  <script src="assets/vendor/leaflet/leaflet.js" defer></script>
+  <script src="itinerary-places.js?v=20261027b" defer></script>
+  <script src="itinerary-routes.js?v=20261027" defer></script>
+  <script src="preview.js?v=20261029p1" defer></script>
+</head>
+<body data-view="plan">
+  <a class="skip" href="#content">跳到行程內容</a>
+  <aside class="rail">
+    <a class="brand" href="preview.html" aria-label="北行日記新版試閱首頁"><span class="brand-mark" aria-hidden="true">北</span><span>北行日記<small>HOKKAIDO / 2026</small></span></a>
+    <span class="rail-label">WINTER ROAD TRIP</span>
+    <nav class="view-nav" aria-label="試頁功能">
+      <button data-view="plan" aria-current="page"><span aria-hidden="true">☷</span>每日行程</button>
+      <button data-view="map"><span aria-hidden="true">⌖</span>路線地圖</button>
+      <button data-view="extras"><span aria-hidden="true">◇</span>同日備選</button>
+      <button data-view="info"><span aria-hidden="true">▤</span>旅程資訊</button>
+    </nav>
+    <div class="rail-bottom"><span class="edition">DESIGN PREVIEW · 01</span><p>12/15新版試閱<br>其他日期仍為原版</p><a href="itinerary.html#day-4">回原版比較 ↗</a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><span class="trip-label">北海道，慢慢往北。</span><div><span class="preview-label">新版試閱</span><a href="itinerary.html#day-4">原版行程 ↗</a></div></header>
+    <nav class="dates" aria-label="切換行程日期">
+      <a href="itinerary.html#day-1" title="12/12函館・開啟原版"><small>SAT</small><strong>12.12</strong><span>函館</span></a>
+      <a href="itinerary.html#day-2" title="12/13室蘭・開啟原版"><small>SUN</small><strong>12.13</strong><span>室蘭</span></a>
+      <a href="itinerary.html#day-3" title="12/14小樽・開啟原版"><small>MON</small><strong>12.14</strong><span>小樽</span></a>
+      <a class="active" href="preview.html" aria-current="date"><small>TUE</small><strong>12.15</strong><span>小樽 → 札幌</span></a>
+      <a href="itinerary.html#day-5" title="12/16旭川・開啟原版"><small>WED</small><strong>12.16</strong><span>旭川</span></a>
+      <a href="itinerary.html#day-6" title="12/17層雲峽・開啟原版"><small>THU</small><strong>12.17</strong><span>層雲峽</span></a>
+      <a href="itinerary.html#day-7" title="12/18登別・開啟原版"><small>FRI</small><strong>12.18</strong><span>登別</span></a>
+      <a href="itinerary.html#day-8" title="12/19函館・開啟原版"><small>SAT</small><strong>12.19</strong><span>函館</span></a>
+    </nav>
+    <main id="content" tabindex="-1">
+      <section class="day-hero">
+        <div><p class="eyebrow">DAY 04 <span>—</span> TUESDAY, DECEMBER 15</p><h1>小樽的甜，<br class="mobile-break">札幌的日常。</h1><p class="hero-sub">限定小物、神社，和一份自己的旅行紀念。</p><div class="hero-tags"><span>小樽 → 札幌</span><span>今晚住 PINN</span><span>時間皆為日本時間</span></div></div>
+        <figure class="hero-photo"><img id="hero-image" alt="小樽運河參考照片，非出遊當日雪況"><figcaption><a id="hero-source" target="_blank" rel="noopener noreferrer">OTARU / 圖片來源 ↗</a></figcaption></figure>
+      </section>
+      <section class="guardrails" aria-label="當日重要限制"><div><span class="guard-icon" aria-hidden="true">!</span><div><strong>今天要留意</strong><p>神社15:00前完成 · 冰箱貼可能等1–4小時 · 雪天車程保留彈性</p></div></div><button id="show-info">查看提醒 <span aria-hidden="true">↗</span></button></section>
+      <div class="main-grid">
+        <div class="content-column">
+          <section class="panel panel-plan" aria-labelledby="plan-heading"><div class="section-heading"><div><p class="eyebrow">YOUR DAY, AT A GLANCE</p><h2 id="plan-heading">今日時間軸</h2></div><span class="section-count">計畫時段，非預約保證</span></div><div id="timeline"></div><noscript><p>互動試頁需要JavaScript。<a href="itinerary.html#day-4">原版完整行程</a>不受影響。</p></noscript><p class="end-note">路上慢一點也沒關係。優先保留重要停留，不靠趕車補時間。</p></section>
+          <section class="panel panel-extras" hidden aria-labelledby="extras-heading"><div class="section-heading"><div><p class="eyebrow">A LITTLE ROOM FOR DETOURS</p><h2 id="extras-heading">同日備選</h2></div><span id="extra-count" class="section-count"></span></div><p class="panel-intro">這些不是全部要去。依時間、營業與雪況擇一，不直接加進主線。</p><label class="search-label"><span aria-hidden="true">⌕</span><input id="extra-search" type="search" placeholder="找店名、羊肉、昭和小物…" aria-label="搜尋同日備選"></label><div class="filters" role="group" aria-label="備選分類"><button class="selected" data-filter="all" aria-pressed="true">全部</button><button data-filter="food" aria-pressed="false">吃點好的</button><button data-filter="shopping" aria-pressed="false">逛逛小店</button><button data-filter="sight" aria-pressed="false">多看一站</button></div><div id="extras-grid"></div><p id="empty-extras" hidden>沒有符合的地點，換個關鍵字試試。</p></section>
+          <section class="panel panel-info" hidden aria-labelledby="info-heading"><div class="section-heading"><div><p class="eyebrow">THE ESSENTIALS</p><h2 id="info-heading">旅程資訊</h2></div></div><div class="info-card"><span class="badge booked">住宿已預訂</span><h3>PINN-N4E2Ⅱ</h3><p>12/15入住，12/16退房 · 札幌中央区北4条東2丁目1-2</p><dl><div><dt>今日入住目標</dt><dd>15:30–16:00</dd></div><div><dt>飯店入住／退房</dt><dd>15:00起／10:00前</dd></div></dl><p>停車、提早寄存與06:30退房操作待確認。已預訂不等於已付款。</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&query=PINN-N4E2Ⅱ+札幌" target="_blank" rel="noopener noreferrer">飯店 Google Maps ↗</a></div><div class="info-card"><span class="badge planned">行程已排・未下單</span><h3>冰箱貼：先送件，再回來取</h3><p>目標12:45–13:15送件，16:45–17:30返回取件；都鐸屋1F免費區。到店先問當日能否製作、交付時間及最晚取件。</p><p>製作約30分鐘，交付可能1–4小時。10–18時、受理至17時；不假定可郵寄、隔日取件或延後關門。限可合法使用的照片，照片適用與上傳方式依店家確認。</p></div><div class="info-card"><h3>清田神社：別錯過15:00</h3><p>社務參考10–15時，週日／一／假日休務；15時後不可過鳥居登階。冬季階梯注意防滑，臨時公告出發前確認。</p></div><div class="info-card"><h3>不變的旅程邊界</h3><dl><div><dt>取車</dt><dd>12/13 15:00 · 函館機場</dd></div><div><dt>還車</dt><dd>12/19 15:00 · 函館機場</dd></div><div><dt>小樽取行李</dt><dd>今日離開前回OMO5</dd></div><div><dt>時區</dt><dd>日本時間，比台灣快1小時</dd></div></dl><a class="text-link" href="rental.html">租車與冬季提醒 ↗</a></div><p class="panel-intro">本頁只調整呈現方式，沒有修改住宿、預約或活動。私人記帳不放公開網站。</p></section>
+        </div>
+        <aside class="map-column" aria-labelledby="map-heading"><section class="map-shell"><div class="map-heading"><div><p class="eyebrow">OTARU → SAPPORO</p><h2 id="map-heading">沿著今天走</h2></div><button id="fit-map" aria-label="地圖顯示整日路線">↗<span>全覽</span></button></div><div id="day-map" role="region" aria-label="12月15日主線順序與備選地點地圖"><p class="map-fallback">地圖準備中。下方仍可開啟Google Maps。</p></div><div class="map-tools"><span><i class="legend-line"></i>主線順序</span><button id="toggle-extras" aria-pressed="false"><i class="legend-dot"></i>顯示備選</button></div><div class="map-selection" id="map-selection" aria-live="polite"><span class="selection-kicker">點選卡片或地圖上的編號</span><strong>同一份行程，兩種看法。</strong><p>送件與取件會回到同一個地方，編號合併顯示。</p></div><div class="route-links"><a href="https://www.google.com/maps/dir/OMO5+小樽/小樽運河/ちいかわもぐもぐ本舗+小樽店/OTARU+CAFE+HELLO+KITTY/LeTAO+本店/北菓楼+小樽本館/OMO5+小樽" target="_blank" rel="noopener noreferrer">小樽上午導航 ↗</a><a href="https://www.google.com/maps/dir/OMO5+小樽/白い恋人パーク/清田稲荷神社/PINN-N4E2Ⅱ/白い恋人パーク/ちいかわらんど+札幌パルコ店/PINN-N4E2Ⅱ" target="_blank" rel="noopener noreferrer">札幌下午導航 ↗</a></div><p class="map-note">連線是停靠順序示意，不是可行駛道路。定位可能代表園區；入口、停車與冬季管制以當日導航及官方公告為準。數字對應左側卡片。</p></section><div class="small-postcard"><span>TAKE THE SCENIC WAY</span><p>留一點空白，<br>給路上的風景。</p></div></aside>
+      </div>
+      <footer class="page-footer"><span>北行日記 · 2026.12.12—12.19</span><span>設計試閱 01 · 行程資料同步10/27</span><a href="itinerary.html#day-4">開啟原版完整註解 ↗</a></footer>
+    </main>
+  </div>
+  <nav class="mobile-nav" aria-label="手機功能切換"><button data-view="plan" aria-current="page"><span aria-hidden="true">☷</span>行程</button><button data-view="map"><span aria-hidden="true">⌖</span>地圖</button><button data-view="extras"><span aria-hidden="true">◇</span>備選</button><button data-view="info"><span aria-hidden="true">▤</span>資訊</button></nav>
+</body>
+</html>
