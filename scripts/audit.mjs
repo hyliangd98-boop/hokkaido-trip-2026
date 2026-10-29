@@ -79,3 +79,28 @@ for (const place of ctx.window.OTHER_PLACES) {
   assert(place.maps.startsWith('https://www.google.com/maps/'));
 }
 console.log('PASS: 14 extra wishlist entries, 42 distinct-per-place photos, 14 maps; Oct27 mainline/optional and reservation-status guards.');
+
+// The journal is a presentation layer over the same complete HTML schedule.
+const journal = fs.readFileSync(path.join(root, 'journey.js'), 'utf8');
+const configSource = journal.match(/const configs = (\[[\s\S]*?\n  \]);/);
+assert(configSource, 'journal: eight-day presentation configuration');
+const configs = vm.runInNewContext(`(${configSource[1]})`, {}, {timeout:1000});
+const sourceDays = [...itinerary.matchAll(/<article class="day-card\b[\s\S]*?<\/article>/g)];
+assert.equal(configs.length, 8);
+assert.equal(sourceDays.length, 8);
+configs.forEach((config, i) => {
+  const entries = [...sourceDays[i][0].matchAll(/<li><time>/g)];
+  assert.equal(config.rows.length, entries.length, `journal day ${i+1}: all original time slots retained`);
+  for (const [, ...ids] of config.rows) for (const id of ids) {
+    assert(days[i].stops.concat(days[i].optional).some(p => p.id === id), `journal day ${i+1}: ${id} map membership`);
+  }
+});
+assert(journal.includes('d.open=true'), 'journal: notes/photos open by default');
+assert(!itinerary.includes('src="itinerary-gallery.js'), 'journal: no duplicate legacy renderer');
+vm.runInNewContext(fs.readFileSync(path.join(root, 'journey-shell.js'), 'utf8'), ctx);
+for (const page of pages) assert(ctx.window.JOURNEY_SHELL.includes(`href="${page}"`), `journal shell: ${page} navigation`);
+for (const page of pages.filter(p=>p!=='itinerary.html')) assert(fs.readFileSync(path.join(root,page),'utf8').includes('site-theme.css?v=20261029p2'), `${page}: shared journal theme`);
+for (const file of ['journey.js','journey-shell.js','journey.css','site-theme.css']) {
+  assert(!/202602188790|6398654|5747085295|t8440304@gmail\.com|19,051|12,300/.test(fs.readFileSync(path.join(root,file),'utf8')), `${file}: private data guard`);
+}
+console.log('PASS: eight-day journal preserves all 77 source time slots; details/photos default open, all pages themed, public source privacy guards.');

@@ -41,7 +41,7 @@
     });
     container.append(track, el('p', 'photo-help', '← 左右滑動看三張照片 · 照片權利歸原作者，非當日雪況或現貨保證'));
   }
-  function detailsFor(ids, custom, open = false) {
+  function detailsFor(ids, custom, open = true) {
     const details = el('details', 'stop-details'); details.open = open;
     const summary = el('summary', '', ids.length ? '詳細註記與照片' : '展開行程註記'); const body = el('div', 'detail-content');
     if (custom) body.append(el('p', 'place-description', custom));
