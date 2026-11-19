@@ -9,7 +9,7 @@
     if (cls) node.className = cls;
     return node;
   };
-  document.getElementById('directory-count').textContent = `${places.length} 個不同地點 · 主線與備選均列入`;
+  document.getElementById('directory-count').textContent = `${places.length} 個不同地點 · 主線、候選與舊路線資料`;
   places.forEach(place => {
     const card = make('article', '', 'place-card');
     card.append(make('span', place.days.map(day => `12/${11 + day}`).join('、'), 'place-type'));

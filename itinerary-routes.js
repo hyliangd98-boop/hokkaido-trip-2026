@@ -1,4 +1,4 @@
-/* Daily primary and optional stop order, synced 2026-10-27; not winter navigation. */
+/* Daily primary and optional order, synced 2026-11-19; not winter navigation. */
 window.ITINERARY_ROUTES = [
   {
     "day": 1,
@@ -359,13 +359,6 @@ window.ITINERARY_ROUTES = [
         "source": "https://hoshinoresorts.com/en/hotels/omo5otaru/access/"
       },
       {
-        "id": "memento",
-        "name": "白色戀人公園・留戀寫真館（都鐸屋店）（園區／地圖範圍示意）",
-        "lat": 43.08835,
-        "lon": 141.27068,
-        "source": "https://mapcarta.com/W1227702384"
-      },
-      {
         "id": "kiyota",
         "name": "清田稻荷神社（園區／地圖範圍示意）",
         "lat": 42.98954302079841,
@@ -378,13 +371,6 @@ window.ITINERARY_ROUTES = [
         "lat": 43.06717,
         "lon": 141.35765,
         "source": "https://pinn-hotel.com/lineup/pinn-test3/"
-      },
-      {
-        "id": "memento",
-        "name": "白色戀人公園・留戀寫真館（都鐸屋店）（園區／地圖範圍示意）",
-        "lat": 43.08835,
-        "lon": 141.27068,
-        "source": "https://mapcarta.com/W1227702384"
       },
       {
         "id": "chiikawa-sapporo",
@@ -405,7 +391,7 @@ window.ITINERARY_ROUTES = [
       {
         "id": "glass",
         "name": "小樽花窗玻璃美術館",
-        "from": "canal",
+        "from": "otaru",
         "lon": 141.0022429,
         "lat": 43.1980873,
         "source": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%A8%BD%E8%8A%B8%E8%A1%93%E6%9D%91%20%E3%82%B9%E3%83%86%E3%83%B3%E3%83%89%E3%82%B0%E3%83%A9%E3%82%B9%E7%BE%8E%E8%A1%93%E9%A4%A8"
@@ -413,7 +399,7 @@ window.ITINERARY_ROUTES = [
       {
         "id": "moiwa",
         "name": "藻岩山夜景",
-        "from": "sapporo",
+        "from": "otaru",
         "lon": 141.3223386,
         "lat": 43.0223946,
         "source": "https://www.openstreetmap.org/?mlat=43.0223946&mlon=141.3223386"
@@ -421,7 +407,7 @@ window.ITINERARY_ROUTES = [
       {
         "id": "hanamaru",
         "name": "根室花丸 COCONO SUSUKINO店",
-        "from": "chiikawa-sapporo",
+        "from": "otaru",
         "lon": 141.3526245,
         "lat": 43.055129,
         "source": "https://www.openstreetmap.org/?mlat=43.055129&mlon=141.3526245"
@@ -429,7 +415,7 @@ window.ITINERARY_ROUTES = [
       {
         "id": "hachikyo",
         "name": "海味はちきょう別亭おやじ",
-        "from": "chiikawa-sapporo",
+        "from": "otaru",
         "lon": 141.3538925,
         "lat": 43.0564573,
         "source": "https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%91%B3%E3%81%AF%E3%81%A1%E3%81%8D%E3%82%87%E3%81%86%20%E5%88%A5%E4%BA%AD%E3%81%8A%E3%82%84%E3%81%98"
@@ -440,7 +426,7 @@ window.ITINERARY_ROUTES = [
         "lon": 141.3480242,
         "lat": 43.0639656,
         "source": "https://www.openstreetmap.org/?mlat=43.0639656&mlon=141.3480242",
-        "from": "sapporo"
+        "from": "otaru"
       },
       {
         "id": "odori",
@@ -448,7 +434,7 @@ window.ITINERARY_ROUTES = [
         "lon": 141.3475101,
         "lat": 43.0599018,
         "source": "https://www.openstreetmap.org/?mlat=43.0599018&mlon=141.3475101",
-        "from": "sapporo"
+        "from": "otaru"
       },
       {
         "id": "tanuki",
@@ -456,7 +442,7 @@ window.ITINERARY_ROUTES = [
         "lon": 141.352677,
         "lat": 43.0572386,
         "source": "https://www.google.com/maps/search/?api=1&query=%E6%9C%AD%E5%B9%8C%20%E7%8B%B8%E5%B0%8F%E8%B7%AF",
-        "from": "sapporo"
+        "from": "otaru"
       },
       {
         "id": "tnoc",
@@ -464,7 +450,7 @@ window.ITINERARY_ROUTES = [
         "lon": 141.3521718,
         "lat": 43.0573421,
         "source": "https://www.google.com/maps/search/?api=1&query=TNOC%20THE%20STORE%20SAPPORO%20T4",
-        "from": "sapporo"
+        "from": "otaru"
       },
       {
         "id": "nagare",
@@ -472,7 +458,7 @@ window.ITINERARY_ROUTES = [
         "lat": 43.057633264539,
         "lon": 141.36156192777,
         "source": "https://map.yahoo.co.jp/v3/place/NKR3xAWN20w",
-        "from": "sapporo"
+        "from": "otaru"
       },
       {
         "id": "butter",
@@ -480,7 +466,7 @@ window.ITINERARY_ROUTES = [
         "lat": 43.0639332,
         "lon": 141.3506355,
         "source": "https://maps.app.goo.gl/FoMKg3QAV5WixUWz8",
-        "from": "sapporo"
+        "from": "otaru"
       },
       {
         "id": "omaru",
@@ -488,7 +474,7 @@ window.ITINERARY_ROUTES = [
         "lat": 43.053834854539,
         "lon": 141.35483894774,
         "source": "https://map.yahoo.co.jp/v3/place/S5_AdWMcdGk",
-        "from": "sapporo"
+        "from": "otaru"
       },
       {
         "id": "shinko",
@@ -496,7 +482,7 @@ window.ITINERARY_ROUTES = [
         "lat": 43.184654,
         "lon": 141.007761,
         "source": "https://www.google.com/maps?ftid=0x5f0ae05eff7a6293:0x8a051182be6be6e7",
-        "from": "canal"
+        "from": "otaru"
       },
       {
         "id": "okuno",
@@ -504,7 +490,7 @@ window.ITINERARY_ROUTES = [
         "lat": 43.1953124,
         "lon": 141.0046346,
         "source": "https://www.google.com/maps?ftid=0x5f0ae112aafaf76b:0x9bbd5affa31a615f",
-        "from": "canal"
+        "from": "otaru"
       },
       {
         "id": "aquarium",
@@ -512,11 +498,10 @@ window.ITINERARY_ROUTES = [
         "lat": 43.23694298,
         "lon": 141.0119214,
         "source": "https://map.yahoo.co.jp/v3/place/-9qsz7owgFg",
-        "from": "canal"
+        "from": "otaru"
       }
     ],
-    "note": "10/27新版：小樽運河→吉伊卡哇→Kitty→甜點短逛→OMO5取行李→白色戀人公園送件→清田神社→PINN入住→白色戀人公園取件→PARCO吉伊卡哇→PINN。送件與取件是同一地點，編號保留兩次；主線編號不是活動完成保證。藍色虛線為完整停靠順序，非可行駛道路或即時導航；部分位置為園區／官方嵌入地圖範圍示意，入口停車以Google Maps與現場確認。水族館、咖啡與其他逛街橘色皆備選，不與主線全部疊加。",
-    "geometry": null
+    "note": "11/19重排：小樽購物→取行李→清田神社→PINN→PARCO；白色戀人移至12/16條件式安排。線條僅停靠順序，非道路導航。"
   },
   {
     "day": 5,
@@ -529,6 +514,13 @@ window.ITINERARY_ROUTES = [
         "source": "https://pinn-hotel.com/lineup/pinn-test3/"
       },
       {
+        "id": "memento",
+        "name": "白色戀人公園・留戀寫真館（都鐸屋店）（園區／地圖範圍示意）",
+        "lat": 43.08835,
+        "lon": 141.27068,
+        "source": "https://mapcarta.com/W1227702384"
+      },
+      {
         "id": "moere",
         "name": "莫埃來沼公園・玻璃金字塔商店（園區／地圖範圍示意）",
         "lat": 43.12234565244494,
@@ -536,18 +528,42 @@ window.ITINERARY_ROUTES = [
         "source": "https://moerenumapark.jp/access/"
       },
       {
-        "id": "cambia",
-        "name": "カンビア",
-        "lon": 141.8228225,
-        "lat": 43.2378389,
-        "source": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%B3%E3%83%93%E3%82%A2%20%E4%B8%89%E7%AC%A0%20%E5%B2%A1%E5%B1%B1"
+        "id": "sapporo-extra",
+        "name": "札幌市區住宿代表點（12/16飯店待訂，非PINN續住確認）",
+        "lat": 43.06717,
+        "lon": 141.35765,
+        "source": "https://pinn-hotel.com/lineup/pinn-test3/"
+      }
+    ],
+    "optional": [
+      {
+        "id": "bibai",
+        "name": "美唄10km雪地摩托",
+        "from": "sapporo",
+        "lon": 141.8676864,
+        "lat": 43.3850662,
+        "source": "https://www.google.com/maps/search/?api=1&query=Alpen%20Snowland%20Bibai%20snowmobile"
+      }
+    ],
+    "note": "11/19重排：札幌→白色戀人（照片冰箱貼服務待確認、10時受理後等待及取件）→莫埃來商店→札幌。12/16新一晚飯店未訂，不等於PINN已續住。虛線非道路；公園用園區示意位置。"
+  },
+  {
+    "day": 6,
+    "stops": [
+      {
+        "id": "sapporo-extra",
+        "name": "札幌市區住宿代表點（12/16飯店待訂，非PINN續住確認）",
+        "lat": 43.06717,
+        "lon": 141.35765,
+        "source": "https://pinn-hotel.com/lineup/pinn-test3/"
       },
       {
-        "id": "yuiga",
-        "name": "唯我獨尊",
-        "lon": 142.3894759,
-        "lat": 43.3448788,
-        "source": "https://www.openstreetmap.org/?mlat=43.3448788&mlon=142.3894759"
+        "id": "koyamame",
+        "name": "koyamame roastery（Yabi想去・時段待調整）",
+        "from": "otofuke",
+        "lat": 42.9820103,
+        "lon": 141.7380305,
+        "source": "https://goo.gl/maps/RdkHkToARGoGVkce6"
       },
       {
         "id": "ningle",
@@ -555,13 +571,6 @@ window.ITINERARY_ROUTES = [
         "lon": 142.3563389,
         "lat": 43.3234308,
         "source": "https://www.openstreetmap.org/?mlat=43.3234308&mlon=142.3563389"
-      },
-      {
-        "id": "tree",
-        "name": "聖誕樹之木",
-        "lon": 142.444217,
-        "lat": 43.554386,
-        "source": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E7%91%9B%20%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%84%E3%83%AA%E3%83%BC%E3%81%AE%E6%9C%A8%20%E5%86%AC"
       },
       {
         "id": "birch",
@@ -578,13 +587,6 @@ window.ITINERARY_ROUTES = [
         "source": "https://www.openstreetmap.org/?mlat=43.4745828&mlon=142.6391874"
       },
       {
-        "id": "tenkin",
-        "name": "天金拉麵四条店",
-        "lon": 142.3632329,
-        "lat": 43.7678111,
-        "source": "https://www.openstreetmap.org/?mlat=43.7678111&mlon=142.3632329"
-      },
-      {
         "id": "asahi",
         "name": "旭川站住宿區（飯店待補）",
         "lon": 142.3579447,
@@ -594,35 +596,58 @@ window.ITINERARY_ROUTES = [
     ],
     "optional": [
       {
+        "id": "cambia",
+        "name": "カンビア",
+        "lon": 141.8228225,
+        "lat": 43.2378389,
+        "source": "https://www.google.com/maps/search/?api=1&query=%E3%82%AB%E3%83%B3%E3%83%93%E3%82%A2%20%E4%B8%89%E7%AC%A0%20%E5%B2%A1%E5%B1%B1",
+        "from": "sapporo-extra"
+      },
+      {
+        "id": "yuiga",
+        "name": "唯我獨尊",
+        "lon": 142.3894759,
+        "lat": 43.3448788,
+        "source": "https://www.openstreetmap.org/?mlat=43.3448788&mlon=142.3894759",
+        "from": "sapporo-extra"
+      },
+      {
+        "id": "tree",
+        "name": "聖誕樹之木",
+        "lon": 142.444217,
+        "lat": 43.554386,
+        "source": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E7%91%9B%20%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%84%E3%83%AA%E3%83%BC%E3%81%AE%E6%9C%A8%20%E5%86%AC",
+        "from": "sapporo-extra"
+      },
+      {
         "id": "mildseven",
         "name": "Mild Seven之丘（待討論・冬季停車未確認）",
-        "from": "falls",
+        "from": "sapporo-extra",
         "lat": 43.59780377912331,
         "lon": 142.42655331606431,
         "source": "https://hokkaido.press/kamikawa/mild-seven/"
       },
       {
-        "id": "bibai",
-        "name": "美唄10km雪地摩托",
-        "from": "cambia",
-        "lon": 141.8676864,
-        "lat": 43.3850662,
-        "source": "https://www.google.com/maps/search/?api=1&query=Alpen%20Snowland%20Bibai%20snowmobile"
-      },
-      {
         "id": "bluepond",
         "name": "青池點燈",
-        "from": "falls",
+        "from": "sapporo-extra",
         "lon": 142.6140976,
         "lat": 43.4934902,
         "source": "https://www.openstreetmap.org/?mlat=43.4934902&mlon=142.6140976"
+      },
+      {
+        "id": "tenkin",
+        "name": "天金拉麵四条店",
+        "lon": 142.3632329,
+        "lat": 43.7678111,
+        "source": "https://www.openstreetmap.org/?mlat=43.7678111&mlon=142.3632329",
+        "from": "sapporo-extra"
       }
     ],
-    "note": "10/27新版：PINN→莫埃來沼公園（09:00–09:45商店）→三笠カンビア→唯我獨尊→精靈露台→聖誕樹→白樺街道／白鬚瀑布→旭川。莫埃來為官方地圖範圍位置示意，非商店入口／冬季停車保證。各時段是目標；美唄摩托為替代備案，不與早晨購物硬塞。藍色虛線為順序示意非道路；聖誕樹參觀／接駁待確認。",
-    "geometry": null
+    "note": "11/19重排：12/17目標11時咖啡廳→富良野精靈露台→白金／白鬚瀑布→旭川。11時場未取得預約確認；13／15時場不適用本時刻表。聖誕樹與餐廳只為取捨候選，並非全部可完成。冬季可能取消白金支線直接住旭川。"
   },
   {
-    "day": 6,
+    "day": 7,
     "stops": [
       {
         "id": "asahi",
@@ -639,282 +664,6 @@ window.ITINERARY_ROUTES = [
         "source": "https://www.google.com/maps/search/?api=1&query=%E6%97%AD%E5%B1%B1%E5%8B%95%E7%89%A9%E5%9C%92%20%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%20%E5%86%AC"
       },
       {
-        "id": "waterfalls",
-        "name": "銀河・流星瀑布",
-        "lon": 142.9795622,
-        "lat": 43.7197397,
-        "source": "https://www.openstreetmap.org/?mlat=43.7197397&mlon=142.9795622"
-      },
-      {
-        "id": "sounkyo",
-        "name": "層雲峽溫泉",
-        "lon": 142.947344,
-        "lat": 43.7274866,
-        "source": "https://www.openstreetmap.org/?mlat=43.7274866&mlon=142.947344"
-      }
-    ],
-    "optional": [],
-    "note": "12/17 旭山動物園 → 層雲峽；企鵝散步尚未保證，銀河・流星瀑布僅停車／步道可用才停。",
-    "geometry": {
-      "coordinates": [
-        [
-          142.357945,
-          43.764627
-        ],
-        [
-          142.366097,
-          43.762301
-        ],
-        [
-          142.371253,
-          43.771621
-        ],
-        [
-          142.380422,
-          43.768983
-        ],
-        [
-          142.413186,
-          43.772188
-        ],
-        [
-          142.478252,
-          43.769578
-        ],
-        [
-          142.479549,
-          43.770952
-        ],
-        [
-          142.477103,
-          43.772585
-        ],
-        [
-          142.480631,
-          43.77558
-        ],
-        [
-          142.47291,
-          43.776592
-        ],
-        [
-          142.473802,
-          43.788691
-        ],
-        [
-          142.479613,
-          43.794263
-        ],
-        [
-          142.481704,
-          43.800802
-        ],
-        [
-          142.552929,
-          43.845226
-        ],
-        [
-          142.564264,
-          43.867819
-        ],
-        [
-          142.575328,
-          43.871995
-        ],
-        [
-          142.572229,
-          43.876486
-        ],
-        [
-          142.577604,
-          43.881331
-        ],
-        [
-          142.574059,
-          43.891158
-        ],
-        [
-          142.575984,
-          43.89525
-        ],
-        [
-          142.573219,
-          43.895939
-        ],
-        [
-          142.590329,
-          43.890506
-        ],
-        [
-          142.616686,
-          43.887753
-        ],
-        [
-          142.631057,
-          43.881136
-        ],
-        [
-          142.660415,
-          43.873711
-        ],
-        [
-          142.676681,
-          43.862288
-        ],
-        [
-          142.700937,
-          43.853836
-        ],
-        [
-          142.710731,
-          43.842416
-        ],
-        [
-          142.717486,
-          43.838774
-        ],
-        [
-          142.726206,
-          43.838164
-        ],
-        [
-          142.74676,
-          43.842299
-        ],
-        [
-          142.766459,
-          43.839376
-        ],
-        [
-          142.767236,
-          43.843288
-        ],
-        [
-          142.778416,
-          43.843003
-        ],
-        [
-          142.806566,
-          43.828658
-        ],
-        [
-          142.839767,
-          43.821772
-        ],
-        [
-          142.848624,
-          43.817496
-        ],
-        [
-          142.858993,
-          43.817562
-        ],
-        [
-          142.871368,
-          43.813883
-        ],
-        [
-          142.881103,
-          43.803098
-        ],
-        [
-          142.890042,
-          43.799148
-        ],
-        [
-          142.898901,
-          43.788622
-        ],
-        [
-          142.907232,
-          43.768172
-        ],
-        [
-          142.930984,
-          43.752061
-        ],
-        [
-          142.935692,
-          43.741926
-        ],
-        [
-          142.94257,
-          43.734455
-        ],
-        [
-          142.943057,
-          43.72996
-        ],
-        [
-          142.949102,
-          43.726605
-        ],
-        [
-          142.96586,
-          43.726318
-        ],
-        [
-          142.979777,
-          43.718092
-        ],
-        [
-          142.965514,
-          43.726421
-        ],
-        [
-          142.947344,
-          43.727487
-        ]
-      ],
-      "type": "LineString"
-    }
-  },
-  {
-    "day": 7,
-    "stops": [
-      {
-        "id": "sounkyo",
-        "name": "層雲峽溫泉",
-        "lon": 142.947344,
-        "lat": 43.7274866,
-        "source": "https://www.openstreetmap.org/?mlat=43.7274866&mlon=142.947344"
-      },
-      {
-        "id": "daisetsu",
-        "name": "大雪湖周邊（途經）",
-        "lon": 143.0363919,
-        "lat": 43.6762403,
-        "source": "https://www.google.com/maps/search/?api=1&query=daisetsu"
-      },
-      {
-        "id": "mikuni",
-        "name": "三國峠／松見大橋",
-        "lon": 143.1289033,
-        "lat": 43.5787894,
-        "source": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%9B%BD%E5%B3%A0%20%E6%9D%BE%E8%A6%8B%E5%A4%A7%E6%A9%8B%20%E5%86%AC"
-      },
-      {
-        "id": "nukabira",
-        "name": "糠平湖展望區（不上冰面）",
-        "lat": 43.3724146,
-        "lon": 143.2192204,
-        "source": "https://www.openstreetmap.org/node/4077862617"
-      },
-      {
-        "id": "kamishihoro",
-        "name": "上士幌道之驛",
-        "lon": 143.2914324,
-        "lat": 43.2246394,
-        "source": "https://www.openstreetmap.org/?mlat=43.2246394&mlon=143.2914324"
-      },
-      {
-        "id": "otofuke",
-        "name": "音更帶廣 IC（上高速）",
-        "lon": 143.1801726,
-        "lat": 42.9808374,
-        "source": "https://www.google.com/maps/search/?api=1&query=otofuke"
-      },
-      {
         "id": "noboribetsu",
         "name": "登別溫泉住宿區（飯店待補）",
         "lon": 141.1430592,
@@ -924,348 +673,63 @@ window.ITINERARY_ROUTES = [
     ],
     "optional": [
       {
-        "id": "kofuku",
-        "name": "幸福駅（待討論・非原主線途經）",
-        "from": "otofuke",
-        "lat": 42.7452974333333,
-        "lon": 143.161881555556,
-        "source": "https://www.visit-hokkaido.jp/tw/spot/detail_10129.html"
-      },
-      {
-        "id": "koyamame",
-        "name": "koyamame roastery（Yabi想去・時段待調整）",
-        "from": "otofuke",
-        "lat": 42.9820103,
-        "lon": 141.7380305,
-        "source": "https://goo.gl/maps/RdkHkToARGoGVkce6"
-      },
-      {
         "id": "hell",
         "name": "登別地獄谷（有餘裕才加碼）",
-        "from": "noboribetsu",
+        "from": "asahi",
         "lat": 42.4976231,
         "lon": 141.1486602,
         "source": "https://www.google.com/maps/place/%E7%99%BB%E5%88%A5%E5%9C%B0%E7%8D%84%E8%B0%B7/@42.4976231,141.1486602,17z/data=!3m1!4b1!4m6!3m5!1s0x5f7566c28ae3ffff:0xc7b5b02adcffbecc!8m2!3d42.4976231!4d141.1486602!16s%2Fg%2F121f48wm"
+      },
+      {
+        "id": "sounkyo",
+        "name": "層雲峽溫泉",
+        "lon": 142.947344,
+        "lat": 43.7274866,
+        "source": "https://www.openstreetmap.org/?mlat=43.7274866&mlon=142.947344",
+        "from": "asahi"
+      },
+      {
+        "id": "waterfalls",
+        "name": "銀河・流星瀑布",
+        "lon": 142.9795622,
+        "lat": 43.7197397,
+        "source": "https://www.openstreetmap.org/?mlat=43.7197397&mlon=142.9795622",
+        "from": "asahi"
+      },
+      {
+        "id": "mikuni",
+        "name": "三國峠／松見大橋",
+        "lon": 143.1289033,
+        "lat": 43.5787894,
+        "source": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E5%9B%BD%E5%B3%A0%20%E6%9D%BE%E8%A6%8B%E5%A4%A7%E6%A9%8B%20%E5%86%AC",
+        "from": "asahi"
+      },
+      {
+        "id": "nukabira",
+        "name": "糠平湖展望區（不上冰面）",
+        "lat": 43.3724146,
+        "lon": 143.2192204,
+        "source": "https://www.openstreetmap.org/node/4077862617",
+        "from": "asahi"
+      },
+      {
+        "id": "kamishihoro",
+        "name": "上士幌道之驛",
+        "lon": 143.2914324,
+        "lat": 43.2246394,
+        "source": "https://www.openstreetmap.org/?mlat=43.2246394&mlon=143.2914324",
+        "from": "asahi"
+      },
+      {
+        "id": "kofuku",
+        "name": "幸福駅（待討論・非原主線途經）",
+        "from": "asahi",
+        "lat": 42.7452974333333,
+        "lon": 143.161881555556,
+        "source": "https://www.visit-hokkaido.jp/tw/spot/detail_10129.html"
       }
     ],
-    "note": "12/18 層雲峽經三國峠、糠平、十勝南下登別，不必當天到函館；三國峠是否通行看當日管制。糠平只用合法安全展望／停靠處，不上冰面。長沼koyamame為想去待調整點，橘色支線非道路；未列主線、未預約。加入包場須重排十勝停留、登別抵達與飯店晚餐，不沿用原到達估算。",
-    "geometry": {
-      "coordinates": [
-        [
-          142.947344,
-          43.727487
-        ],
-        [
-          143.001079,
-          43.7168
-        ],
-        [
-          143.036416,
-          43.676232
-        ],
-        [
-          143.041906,
-          43.657658
-        ],
-        [
-          143.018075,
-          43.640908
-        ],
-        [
-          143.053681,
-          43.647093
-        ],
-        [
-          143.047423,
-          43.63714
-        ],
-        [
-          143.055653,
-          43.62287
-        ],
-        [
-          143.124068,
-          43.596094
-        ],
-        [
-          143.128741,
-          43.578918
-        ],
-        [
-          143.117466,
-          43.56713
-        ],
-        [
-          143.13009,
-          43.573344
-        ],
-        [
-          143.152214,
-          43.569287
-        ],
-        [
-          143.159704,
-          43.543584
-        ],
-        [
-          143.140479,
-          43.470459
-        ],
-        [
-          143.15035,
-          43.437484
-        ],
-        [
-          143.175325,
-          43.419152
-        ],
-        [
-          143.199706,
-          43.380341
-        ],
-        [
-          143.185776,
-          43.364678
-        ],
-        [
-          143.228424,
-          43.370644
-        ],
-        [
-          143.219742,
-          43.372755
-        ],
-        [
-          143.280992,
-          43.343794
-        ],
-        [
-          143.311158,
-          43.30595
-        ],
-        [
-          143.291258,
-          43.224554
-        ],
-        [
-          143.27585,
-          43.20804
-        ],
-        [
-          143.266222,
-          43.167335
-        ],
-        [
-          143.242631,
-          43.153346
-        ],
-        [
-          143.218774,
-          43.047761
-        ],
-        [
-          143.203534,
-          43.014062
-        ],
-        [
-          143.181275,
-          43.008391
-        ],
-        [
-          143.17927,
-          42.979735
-        ],
-        [
-          143.119185,
-          42.977814
-        ],
-        [
-          143.069113,
-          42.964511
-        ],
-        [
-          143.014791,
-          42.983709
-        ],
-        [
-          142.889955,
-          42.970793
-        ],
-        [
-          142.827376,
-          43.017373
-        ],
-        [
-          142.787681,
-          43.035774
-        ],
-        [
-          142.782237,
-          43.056833
-        ],
-        [
-          142.760234,
-          43.069477
-        ],
-        [
-          142.738107,
-          43.06954
-        ],
-        [
-          142.661488,
-          43.042263
-        ],
-        [
-          142.641883,
-          43.053866
-        ],
-        [
-          142.58085,
-          43.053935
-        ],
-        [
-          142.533686,
-          43.066289
-        ],
-        [
-          142.52932,
-          43.043236
-        ],
-        [
-          142.485446,
-          43.053951
-        ],
-        [
-          142.459585,
-          43.04212
-        ],
-        [
-          142.44725,
-          43.023557
-        ],
-        [
-          142.407919,
-          43.007355
-        ],
-        [
-          142.397342,
-          42.97934
-        ],
-        [
-          142.411507,
-          42.9755
-        ],
-        [
-          142.309975,
-          42.9513
-        ],
-        [
-          142.243987,
-          42.954335
-        ],
-        [
-          142.211162,
-          42.939221
-        ],
-        [
-          142.192916,
-          42.917878
-        ],
-        [
-          142.095256,
-          42.936413
-        ],
-        [
-          142.041673,
-          42.93225
-        ],
-        [
-          142.034442,
-          42.917598
-        ],
-        [
-          142.005975,
-          42.905559
-        ],
-        [
-          141.953072,
-          42.918365
-        ],
-        [
-          141.913883,
-          42.91399
-        ],
-        [
-          141.867254,
-          42.895758
-        ],
-        [
-          141.813118,
-          42.892412
-        ],
-        [
-          141.836602,
-          42.79805
-        ],
-        [
-          141.831324,
-          42.777795
-        ],
-        [
-          141.703563,
-          42.671751
-        ],
-        [
-          141.679328,
-          42.684397
-        ],
-        [
-          141.657952,
-          42.671809
-        ],
-        [
-          141.662371,
-          42.66466
-        ],
-        [
-          141.617033,
-          42.649392
-        ],
-        [
-          141.59198,
-          42.626504
-        ],
-        [
-          141.516627,
-          42.612042
-        ],
-        [
-          141.397627,
-          42.571749
-        ],
-        [
-          141.220416,
-          42.464243
-        ],
-        [
-          141.177913,
-          42.454504
-        ],
-        [
-          141.177489,
-          42.465102
-        ],
-        [
-          141.148252,
-          42.470941
-        ],
-        [
-          141.143174,
-          42.49249
-        ]
-      ],
-      "type": "LineString"
-    }
+    "note": "11/19重排：旭川→旭山動物園→道央高速→登別。主線不走層雲峽、三國峠及十勝；相關橘色點僅保留舊路線資料，選用須重排整段，不能當作順路加碼。導航基準約249公里／3小時（動物園至登別、11/19即時查詢），冬季另留4.5–6小時含休息，非12/18保證。"
   },
   {
     "day": 8,

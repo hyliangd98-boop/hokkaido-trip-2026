@@ -19,7 +19,7 @@ for (const place of places) {
 assert(days[2].stops.some(s => s.id === 'hanazono'));
 assert(days[2].optional.some(s => s.id === 'whiteisle'));
 assert(days[4].optional.some(s => /美唄/.test(s.name)));
-for (const [day, id] of [[5, 'mildseven'], [7, 'kofuku'], [7, 'koyamame']]) {
+for (const [day, id] of [[6, 'mildseven'], [7, 'kofuku']]) {
   assert(days[day - 1].optional.some(s => s.id === id), `${id}: pending candidate marker`);
   assert(!days[day - 1].stops.some(s => s.id === id), `${id}: not confirmed as primary stop`);
 }
@@ -58,14 +58,20 @@ assert(days[1].optional.some(s => s.id === 'kodomonokuni'));
 assert(places.find(p => p.id === 'kodomonokuni').note.includes('冬季休園'));
 assert(days[3].stops.some(s => s.id === 'kitty'));
 assert(days[3].stops.some(s => s.id === 'kiyota'));
-assert.equal(days[3].stops.filter(s => s.id === 'memento').length, 2, 'send and collect both retained');
+assert(!days[3].stops.some(s => s.id === 'memento'), 'memento moved off Dec15');
+assert(days[4].stops.some(s => s.id === 'memento'), 'memento conditional Dec16');
+assert(days[5].stops.some(s => s.id === 'koyamame'), 'coffee Dec17 primary target');
+assert(!days[6].stops.some(s => s.id === 'mikuni'), 'Mikuni not on revised primary');
 assert(days[3].optional.some(s => s.id === 'aquarium'));
 assert(!days[3].stops.some(s => s.id === 'aquarium'));
 assert(days[4].stops.some(s => s.id === 'moere'));
-assert(days[5].stops.some(s => s.id === 'zoo'), 'Asahiyama retained');
-assert(itinerary.includes('09:00–09:45') && itinerary.includes('18:15–19:15'));
+assert(days[6].stops.some(s => s.id === 'zoo'), 'Asahiyama retained Dec18');
+assert(itinerary.includes('15:15–16:00') && itinerary.includes('16:00–17:00'));
+assert(itinerary.includes('11:00–12:30') && itinerary.includes('11/30'));
+assert(itinerary.includes('不等於PINN已續住'));
+assert(itinerary.includes('15:00 還車'));
 assert(!itinerary.includes('已設定每天台灣時間09:00檢查'));
-assert(itinerary.includes('itinerary-routes.js?v=20261027'), 'route cache invalidation');
+assert(itinerary.includes('itinerary-routes.js?v=20261119'), 'route cache invalidation');
 console.log(`PASS: ${pages.length} pages, ${places.length} places, 8 maps, 3 photos per place, navigation, local links, privacy and stale-content guards.`);
 vm.runInNewContext(fs.readFileSync(path.join(root, 'other-places.js'), 'utf8'), ctx);
 assert.equal(ctx.window.OTHER_PLACES.length, 14);
@@ -78,7 +84,7 @@ for (const place of ctx.window.OTHER_PLACES) {
   assert(extraHtml.includes(`id="${place.id}"`));
   assert(place.maps.startsWith('https://www.google.com/maps/'));
 }
-console.log('PASS: 14 extra wishlist entries, 42 distinct-per-place photos, 14 maps; Oct27 mainline/optional and reservation-status guards.');
+console.log('PASS: 14 extra wishlist entries, 42 distinct-per-place photos, 14 maps; Nov19 mainline/optional and reservation-status guards.');
 
 // The journal is a presentation layer over the same complete HTML schedule.
 const journal = fs.readFileSync(path.join(root, 'journey.js'), 'utf8');
@@ -103,4 +109,4 @@ for (const page of pages.filter(p=>p!=='itinerary.html')) assert(fs.readFileSync
 for (const file of ['journey.js','journey-shell.js','journey.css','site-theme.css']) {
   assert(!/202602188790|6398654|5747085295|t8440304@gmail\.com|19,051|12,300/.test(fs.readFileSync(path.join(root,file),'utf8')), `${file}: private data guard`);
 }
-console.log('PASS: eight-day journal preserves all 77 source time slots; details/photos default open, all pages themed, public source privacy guards.');
+console.log('PASS: eight-day journal preserves every current source time slot; details/photos default open, all pages themed, public source privacy guards.');

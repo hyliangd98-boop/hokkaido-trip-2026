@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#244d45">
-  <meta name="description" content="北海道冬日旅程・12/15行程新版試閱。時間軸、照片與地圖同步，原行程不變。">
-  <title>北行日記｜12/15 新版試閱</title>
+  <meta name="description" content="北海道冬日旅程・12/15行程歷史設計試閱。時間軸、照片與地圖同步，原行程不變。">
+  <title>北行日記｜12/15 歷史設計試閱</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="preview.css?v=20261029p1">
@@ -17,7 +17,7 @@
 <body data-view="plan">
   <a class="skip" href="#content">跳到行程內容</a>
   <aside class="rail">
-    <a class="brand" href="preview.html" aria-label="北行日記新版試閱首頁"><span class="brand-mark" aria-hidden="true">北</span><span>北行日記<small>HOKKAIDO / 2026</small></span></a>
+    <a class="brand" href="preview.html" aria-label="北行日記歷史設計試閱首頁"><span class="brand-mark" aria-hidden="true">北</span><span>北行日記<small>HOKKAIDO / 2026</small></span></a>
     <span class="rail-label">WINTER ROAD TRIP</span>
     <nav class="view-nav" aria-label="試頁功能">
       <button data-view="plan" aria-current="page"><span aria-hidden="true">☷</span>每日行程</button>
@@ -25,17 +25,17 @@
       <button data-view="extras"><span aria-hidden="true">◇</span>同日備選</button>
       <button data-view="info"><span aria-hidden="true">▤</span>旅程資訊</button>
     </nav>
-    <div class="rail-bottom"><span class="edition">DESIGN PREVIEW · 01</span><p>12/15新版試閱<br>其他日期仍為原版</p><a href="itinerary.html#day-4">回原版比較 ↗</a></div>
+    <div class="rail-bottom"><span class="edition">DESIGN PREVIEW · 01</span><p>12/15歷史設計試閱<br>其他日期仍為原版</p><a href="itinerary.html#day-4">回原版比較 ↗</a></div>
   </aside>
   <div class="workspace">
-    <header class="topbar"><span class="trip-label">北海道，慢慢往北。</span><div><span class="preview-label">新版試閱</span><a href="itinerary.html#day-4">全八天新版 ↗</a></div></header>
+    <header class="topbar"><span class="trip-label">北海道，慢慢往北。</span><div><span class="preview-label">歷史設計試閱</span><a href="itinerary.html#day-4">全八天新版 ↗</a></div></header>
     <nav class="dates" aria-label="切換行程日期">
       <a href="itinerary.html#day-1" title="12/12函館・開啟原版"><small>SAT</small><strong>12.12</strong><span>函館</span></a>
       <a href="itinerary.html#day-2" title="12/13室蘭・開啟原版"><small>SUN</small><strong>12.13</strong><span>室蘭</span></a>
       <a href="itinerary.html#day-3" title="12/14小樽・開啟原版"><small>MON</small><strong>12.14</strong><span>小樽</span></a>
       <a class="active" href="preview.html" aria-current="date"><small>TUE</small><strong>12.15</strong><span>小樽 → 札幌</span></a>
-      <a href="itinerary.html#day-5" title="12/16旭川・開啟原版"><small>WED</small><strong>12.16</strong><span>旭川</span></a>
-      <a href="itinerary.html#day-6" title="12/17層雲峽・開啟原版"><small>THU</small><strong>12.17</strong><span>層雲峽</span></a>
+      <a href="itinerary.html#day-5" title="12/16札幌・開啟正式行程"><small>WED</small><strong>12.16</strong><span>札幌</span></a>
+      <a href="itinerary.html#day-6" title="12/17長沼・旭川・開啟正式行程"><small>THU</small><strong>12.17</strong><span>長沼・旭川</span></a>
       <a href="itinerary.html#day-7" title="12/18登別・開啟原版"><small>FRI</small><strong>12.18</strong><span>登別</span></a>
       <a href="itinerary.html#day-8" title="12/19函館・開啟原版"><small>SAT</small><strong>12.19</strong><span>函館</span></a>
     </nav>
@@ -53,7 +53,7 @@
         </div>
         <aside class="map-column" aria-labelledby="map-heading"><section class="map-shell"><div class="map-heading"><div><p class="eyebrow">OTARU → SAPPORO</p><h2 id="map-heading">沿著今天走</h2></div><button id="fit-map" aria-label="地圖顯示整日路線">↗<span>全覽</span></button></div><div id="day-map" role="region" aria-label="12月15日主線順序與備選地點地圖"><p class="map-fallback">地圖準備中。下方仍可開啟Google Maps。</p></div><div class="map-tools"><span><i class="legend-line"></i>主線順序</span><button id="toggle-extras" aria-pressed="false"><i class="legend-dot"></i>顯示備選</button></div><div class="map-selection" id="map-selection" aria-live="polite"><span class="selection-kicker">點選卡片或地圖上的編號</span><strong>同一份行程，兩種看法。</strong><p>送件與取件會回到同一個地方，編號合併顯示。</p></div><div class="route-links"><a href="https://www.google.com/maps/dir/OMO5+小樽/小樽運河/ちいかわもぐもぐ本舗+小樽店/OTARU+CAFE+HELLO+KITTY/LeTAO+本店/北菓楼+小樽本館/OMO5+小樽" target="_blank" rel="noopener noreferrer">小樽上午導航 ↗</a><a href="https://www.google.com/maps/dir/OMO5+小樽/白い恋人パーク/清田稲荷神社/PINN-N4E2Ⅱ/白い恋人パーク/ちいかわらんど+札幌パルコ店/PINN-N4E2Ⅱ" target="_blank" rel="noopener noreferrer">札幌下午導航 ↗</a></div><p class="map-note">連線是停靠順序示意，不是可行駛道路。定位可能代表園區；入口、停車與冬季管制以當日導航及官方公告為準。數字對應左側卡片。</p></section><div class="small-postcard"><span>TAKE THE SCENIC WAY</span><p>留一點空白，<br>給路上的風景。</p></div></aside>
       </div>
-      <footer class="page-footer"><span>北行日記 · 2026.12.12—12.19</span><span>設計試閱 01 · 行程資料同步10/27</span><a href="itinerary.html#day-4">開啟原版完整註解 ↗</a></footer>
+      <footer class="page-footer"><span>北行日記 · 2026.12.12—12.19</span><span>歷史設計試閱 · 行程以正式頁為準</span><a href="itinerary.html#day-4">開啟原版完整註解 ↗</a></footer>
     </main>
   </div>
   <nav class="mobile-nav" aria-label="手機功能切換"><button data-view="plan" aria-current="page"><span aria-hidden="true">☷</span>行程</button><button data-view="map"><span aria-hidden="true">⌖</span>地圖</button><button data-view="extras"><span aria-hidden="true">◇</span>備選</button><button data-view="info"><span aria-hidden="true">▤</span>資訊</button></nav>
